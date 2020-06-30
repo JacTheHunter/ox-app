@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "494707175159",
+    "firebase_url": "https://fuckingnum.firebaseio.com",
+    "project_id": "fuckingnum",
+    "storage_bucket": "fuckingnum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494707175159:android:a12a5b5548b276cc1e2df2",
+        "android_client_info": {
+          "package_name": "com.example.fuckingnum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494707175159-urjvpvpt8fg67duvbacajomck5b5evnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQnKVKbluNA_nLgMBbz5I7DwC_qR6KWa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494707175159-urjvpvpt8fg67duvbacajomck5b5evnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
