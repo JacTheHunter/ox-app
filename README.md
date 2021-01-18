@@ -1,4 +1,4 @@
-# fuckingnum
+# E-commerce CRM
 
 A new Flutter application.
 
