@@ -6,6 +6,6 @@ const kBlueColor = Color(0xFF817DC0);
 const kTextColor = Color(0xFF222B45);
 
 final kBoxDecorationStyle = BoxDecoration(
-  color: Hexcolor("#EBF1FD"),
+  color: HexColor("#EBF1FD"),
   borderRadius: BorderRadius.circular(28.5),
 );

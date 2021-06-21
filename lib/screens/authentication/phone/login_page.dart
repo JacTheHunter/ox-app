@@ -18,12 +18,12 @@ class LoginPage extends StatelessWidget {
     var height = MediaQuery.of(context).size.height;
 
     TextStyle defaultStyle = TextStyle(
-        color: Hexcolor("#627285"),
+        color: HexColor("#627285"),
         fontSize: 15.0 / textScaleFactor,
         fontWeight: FontWeight.w400,
         fontFamily: 'Montserrat');
     TextStyle linkStyle = TextStyle(
-        color: Hexcolor("#0D3662"),
+        color: HexColor("#0D3662"),
         fontSize: 16.0 / textScaleFactor,
         fontWeight: FontWeight.w600,
         fontFamily: 'Montserrat');
@@ -48,7 +48,7 @@ class LoginPage extends StatelessWidget {
                 fontSize: 16 / textScaleFactor,
                 fontWeight: FontWeight.w500,
                 fontFamily: 'Montserrat',
-                color: Hexcolor("#965EFF"),
+                color: HexColor("#965EFF"),
               ),
             ),
           ],
@@ -103,15 +103,15 @@ class LoginPage extends StatelessWidget {
     );
 
     return Scaffold(
-      backgroundColor: Hexcolor("#F7F8FB"),
+      backgroundColor: HexColor("#F7F8FB"),
       appBar: AppBar(
         centerTitle: true,
         elevation: 0,
-        backgroundColor: Hexcolor("#F7F8FB"),
+        backgroundColor: HexColor("#F7F8FB"),
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -123,7 +123,7 @@ class LoginPage extends StatelessWidget {
             fontFamily: 'Montserrat',
             fontWeight: FontWeight.w500,
             fontSize: 19.0 / textScaleFactor,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
         ),
       ),
@@ -170,7 +170,7 @@ class LoginPage extends StatelessWidget {
                       child: Container(
                         width: width * .7,
                         height: height * .01,
-                        color: Hexcolor("#965EFF").withOpacity(0.2),
+                        color: HexColor("#965EFF").withOpacity(0.2),
                       ),
                     ),
                   ],

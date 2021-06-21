@@ -32,14 +32,14 @@ class _detailsBuy extends State<detailsBuy> {
     final cart = Provider.of<Cart>(context);
 
     return Scaffold(
-      backgroundColor: Hexcolor("#F7F8FB"),
+      backgroundColor: HexColor("#F7F8FB"),
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Hexcolor("#F7F8FB"),
+        backgroundColor: HexColor("#F7F8FB"),
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -52,7 +52,7 @@ class _detailsBuy extends State<detailsBuy> {
             fontWeight: FontWeight.w600,
             fontFamily: 'Montserrat',
             fontSize: 19,
-            color: Hexcolor('#0D3662'),
+            color: HexColor('#0D3662'),
           ),
         ),
       ),
@@ -67,7 +67,7 @@ class _detailsBuy extends State<detailsBuy> {
                   width: 327,
                   height: 85,
                   decoration: BoxDecoration(
-                    color: Hexcolor("#EBF1FD"),
+                    color: HexColor("#EBF1FD"),
                     borderRadius: BorderRadius.circular(30),
                   ),
                   child: Column(
@@ -83,7 +83,7 @@ class _detailsBuy extends State<detailsBuy> {
                                 SvgPicture.asset(
                                   'icons/store.svg',
                                   height: 20,
-                                  color: Hexcolor('#0D3662'),
+                                  color: HexColor('#0D3662'),
                                 ),
                                 SizedBox(width: 3),
                                 Text(
@@ -92,7 +92,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontSize: 16,
                                     fontFamily: 'Montserrat',
                                     fontWeight: FontWeight.w600,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                               ],
@@ -103,7 +103,7 @@ class _detailsBuy extends State<detailsBuy> {
                                 fontWeight: FontWeight.w400,
                                 fontFamily: 'Montserrat',
                                 fontSize: 14,
-                                color: Hexcolor("#627285"),
+                                color: HexColor("#627285"),
                               ),
                             ),
                           ],
@@ -124,7 +124,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontSize: 14,
                                     fontFamily: 'Montserrat',
                                     fontWeight: FontWeight.w500,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                               ],
@@ -135,7 +135,7 @@ class _detailsBuy extends State<detailsBuy> {
                                 fontWeight: FontWeight.w400,
                                 fontFamily: 'Montserrat',
                                 fontSize: 14,
-                                color: Hexcolor("#627285"),
+                                color: HexColor("#627285"),
                               ),
                             ),
                           ],
@@ -157,7 +157,7 @@ class _detailsBuy extends State<detailsBuy> {
                             fontSize: 16,
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.w600,
-                            color: Hexcolor("#0D3662"),
+                            color: HexColor("#0D3662"),
                           ),
                         ),
                         Icon(Icons.arrow_forward_ios),
@@ -188,7 +188,7 @@ class _detailsBuy extends State<detailsBuy> {
                     height: 489,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(25),
-                      color: Hexcolor("#EBF1FD"),
+                      color: HexColor("#EBF1FD"),
                     ),
                     child: LayoutBuilder(
                       builder: (conxtext, constraints) => Padding(
@@ -205,7 +205,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 19,
                                     fontWeight: FontWeight.w600,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                                 Text(
@@ -214,7 +214,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 14,
                                     fontWeight: FontWeight.w400,
-                                    color: Hexcolor("#627285"),
+                                    color: HexColor("#627285"),
                                   ),
                                 ),
                               ],
@@ -229,7 +229,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 16,
                                     fontWeight: FontWeight.w400,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                                 Text(
@@ -238,7 +238,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 16,
                                     fontWeight: FontWeight.w500,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                               ],
@@ -253,7 +253,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 16,
                                     fontWeight: FontWeight.w400,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                                 Text(
@@ -262,7 +262,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 16,
                                     fontWeight: FontWeight.w500,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                               ],
@@ -277,7 +277,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 16,
                                     fontWeight: FontWeight.w400,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                                 Text(
@@ -286,7 +286,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 16,
                                     fontWeight: FontWeight.w500,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                               ],
@@ -308,7 +308,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 16,
                                     fontWeight: FontWeight.w400,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                                 Text(
@@ -317,7 +317,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontFamily: 'Montserrat',
                                     fontSize: 19,
                                     fontWeight: FontWeight.w600,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                               ],
@@ -347,7 +347,7 @@ class _detailsBuy extends State<detailsBuy> {
                                             fontWeight: FontWeight.w400,
                                             fontFamily: 'Montserrat',
                                             fontSize: 13,
-                                            color: Hexcolor("#0D3662"),
+                                            color: HexColor("#0D3662"),
                                           ),
                                         ),
                                       ],
@@ -366,7 +366,7 @@ class _detailsBuy extends State<detailsBuy> {
                                             fontWeight: FontWeight.w400,
                                             fontFamily: 'Montserrat',
                                             fontSize: 13,
-                                            color: Hexcolor("#0D3662"),
+                                            color: HexColor("#0D3662"),
                                           ),
                                         ),
                                       ],
@@ -385,7 +385,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     width: 37,
                                     height: 52,
                                     decoration: BoxDecoration(
-                                      color: Hexcolor("#965EFF"),
+                                      color: HexColor("#965EFF"),
                                       borderRadius: BorderRadius.circular(11),
                                     ),
                                     child: SvgPicture.asset(
@@ -398,7 +398,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     width: 37,
                                     height: 52,
                                     decoration: BoxDecoration(
-                                      color: Hexcolor("#965EFF"),
+                                      color: HexColor("#965EFF"),
                                       borderRadius: BorderRadius.circular(11),
                                     ),
                                     child: SvgPicture.asset('icons/file.svg',
@@ -409,7 +409,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     width: 37,
                                     height: 52,
                                     decoration: BoxDecoration(
-                                      color: Hexcolor("#ECE1FE"),
+                                      color: HexColor("#ECE1FE"),
                                       borderRadius: BorderRadius.circular(11),
                                     ),
                                     child: SvgPicture.asset(
@@ -422,7 +422,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     width: 37,
                                     height: 52,
                                     decoration: BoxDecoration(
-                                      color: Hexcolor("#ECE1FE"),
+                                      color: HexColor("#ECE1FE"),
                                       borderRadius: BorderRadius.circular(11),
                                     ),
                                     child: SvgPicture.asset(
@@ -442,7 +442,7 @@ class _detailsBuy extends State<detailsBuy> {
                                     fontSize: 14 / textScaleFactor,
                                     fontFamily: 'Montserrat',
                                     fontWeight: FontWeight.w500,
-                                    color: Hexcolor("#0D3662"),
+                                    color: HexColor("#0D3662"),
                                   ),
                                 ),
                                 Padding(
@@ -451,7 +451,7 @@ class _detailsBuy extends State<detailsBuy> {
                                   child: Container(
                                     width: width * .65,
                                     height: 10,
-                                    color: Hexcolor("#965EFF").withOpacity(0.2),
+                                    color: HexColor("#965EFF").withOpacity(0.2),
                                   ),
                                 ),
                                 Padding(
@@ -460,7 +460,7 @@ class _detailsBuy extends State<detailsBuy> {
                                   child: Container(
                                     width: width * .35,
                                     height: 10,
-                                    color: Hexcolor("#965EFF").withOpacity(0.2),
+                                    color: HexColor("#965EFF").withOpacity(0.2),
                                   ),
                                 ),
                               ],
@@ -487,7 +487,7 @@ class LineDashedPainter extends CustomPainter {
     var dashWidth = 10;
     var dashSpace = 10;
     double startX = 1;
-    final paint = Paint()..color = Hexcolor("#0D3662");
+    final paint = Paint()..color = HexColor("#0D3662");
     while (max >= size.width * .01) {
       canvas.drawLine(Offset(startX, 0), Offset(startX + dashWidth, 0),
           paint..strokeWidth = 1.5);

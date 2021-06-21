@@ -48,7 +48,7 @@ class _ProductPage extends State<ProductPage> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
-          color: Hexcolor("#F6F7FB"),
+          color: HexColor("#F6F7FB"),
           padding: const EdgeInsets.all(4.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -239,7 +239,7 @@ class _ProductPage extends State<ProductPage> {
                       Text(
                         loadedProduct.price.toString() + ' UZS',
                         style: TextStyle(
-                          color: Hexcolor("#0D3662"),
+                          color: HexColor("#0D3662"),
                           fontWeight: FontWeight.w600,
                           fontFamily: 'Montserrat',
                           fontSize: 19.0 / textScaleFactor,
@@ -252,8 +252,8 @@ class _ProductPage extends State<ProductPage> {
                               style: TextStyle(
                                 decoration: TextDecoration.lineThrough,
                                 decorationThickness: 2,
-                                decorationColor: Hexcolor("#F92121"),
-                                color: Hexcolor("#0D3662"),
+                                decorationColor: HexColor("#F92121"),
+                                color: HexColor("#0D3662"),
                                 fontFamily: 'Montserrat',
                                 fontWeight: FontWeight.w400,
                                 fontSize: 16 / textScaleFactor,
@@ -270,7 +270,7 @@ class _ProductPage extends State<ProductPage> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: <Widget>[
-                    RatingBar(
+                    RatingBar.builder(
                       itemSize: 20,
                       initialRating: 0,
                       minRating: 0,
@@ -280,7 +280,7 @@ class _ProductPage extends State<ProductPage> {
                       itemPadding: EdgeInsets.symmetric(horizontal: 1),
                       itemBuilder: (context, _) => Icon(
                         Icons.star,
-                        color: Hexcolor("##FECE2F"),
+                        color: HexColor("##FECE2F"),
                       ),
                       onRatingUpdate: (rating) {
                         print(rating);
@@ -293,7 +293,7 @@ class _ProductPage extends State<ProductPage> {
                           fontSize: 13,
                           fontWeight: FontWeight.w400,
                           fontFamily: 'Montserrat',
-                          color: Hexcolor("#0D3662")),
+                          color: HexColor("#0D3662")),
                     ),
                   ],
                 ),
@@ -309,7 +309,7 @@ class _ProductPage extends State<ProductPage> {
                         fontFamily: 'Montserrat',
                         fontWeight: FontWeight.w600,
                         fontSize: 19.0,
-                        color: Hexcolor("#000080"),
+                        color: HexColor("#000080"),
                       ),
                     ),
                   ],
@@ -332,7 +332,7 @@ class _ProductPage extends State<ProductPage> {
                         fontFamily: 'Montserrat',
                         fontWeight: FontWeight.w500,
                         fontSize: 14.0,
-                        color: Hexcolor("#0D3662"),
+                        color: HexColor("#0D3662"),
                       ),
                     ),
                   ],
@@ -355,7 +355,7 @@ class _ProductPage extends State<ProductPage> {
                         fontFamily: 'Montserrat',
                         fontSize: 19,
                         fontWeight: FontWeight.w600,
-                        color: Hexcolor("#0D3662"),
+                        color: HexColor("#0D3662"),
                       ),
                     ),
                   ),
@@ -364,18 +364,18 @@ class _ProductPage extends State<ProductPage> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
-                        RatingBar(
+                        RatingBar.builder(
                           itemSize: 16.5,
                           initialRating: 0,
                           minRating: 0,
                           direction: Axis.horizontal,
                           allowHalfRating: true,
                           itemCount: 5,
-                          itemPadding: EdgeInsets.symmetric(horizontal: 1),
                           itemBuilder: (context, _) => Icon(
                             Icons.star,
-                            color: Hexcolor("##FECE2F"),
+                            color: HexColor("##FECE2F"),
                           ),
+                          itemPadding: EdgeInsets.symmetric(horizontal: 1),
                           onRatingUpdate: (rating) {
                             print(rating);
                           },
@@ -387,7 +387,7 @@ class _ProductPage extends State<ProductPage> {
                               fontSize: 13,
                               fontWeight: FontWeight.w400,
                               fontFamily: 'Montserrat',
-                              color: Hexcolor("#0D3662")),
+                              color: HexColor("#0D3662")),
                         ),
                       ],
                     ),
@@ -405,7 +405,7 @@ class _ProductPage extends State<ProductPage> {
                       fontSize: 12,
                       fontFamily: 'Montserrat',
                       fontWeight: FontWeight.w500,
-                      color: Hexcolor("#0D3662")),
+                      color: HexColor("#0D3662")),
                 ),
               ),
               Padding(padding: EdgeInsets.all(10), child: Top_Shops_Item()),
@@ -417,7 +417,7 @@ class _ProductPage extends State<ProductPage> {
                       fontWeight: FontWeight.w600,
                       fontFamily: 'Montserrat',
                       fontSize: 19,
-                      color: Hexcolor("#0D3662")),
+                      color: HexColor("#0D3662")),
                 ),
               ),
               Grid_For_Brands(),
@@ -429,7 +429,7 @@ class _ProductPage extends State<ProductPage> {
                       fontWeight: FontWeight.w600,
                       fontFamily: 'Montserrat',
                       fontSize: 19,
-                      color: Hexcolor("#0D3662")),
+                      color: HexColor("#0D3662")),
                 ),
               ),
               Grid_For_Brands(),

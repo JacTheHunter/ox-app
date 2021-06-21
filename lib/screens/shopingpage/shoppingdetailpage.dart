@@ -127,7 +127,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                       fontWeight: FontWeight.w500,
                       fontFamily: "montserrat",
                       fontSize: 12,
-                      color: Hexcolor("#627285"),
+                      color: HexColor("#627285"),
                     ),
                   ),
                 ],
@@ -142,7 +142,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                   fontWeight: FontWeight.w600,
                   fontFamily: "Montserrat",
                   fontSize: 19,
-                  color: Hexcolor("#0D3662"),
+                  color: HexColor("#0D3662"),
                 ),
               ),
             ),
@@ -152,7 +152,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                 width: 48,
                 height: 24,
                 decoration: BoxDecoration(
-                    color: Hexcolor("#FECE2F"),
+                    color: HexColor("#FECE2F"),
                     borderRadius: BorderRadius.circular(20.0)),
                 child: Center(
                   child: Text(
@@ -176,7 +176,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                   fontWeight: FontWeight.w400,
                   fontFamily: "Montserrat",
                   fontSize: 16,
-                  color: Hexcolor("#627285"),
+                  color: HexColor("#627285"),
                 ),
               ),
             ),
@@ -217,7 +217,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                   fontWeight: FontWeight.w400,
                   fontFamily: "Montserrat",
                   fontSize: 16 / textScaleFactor,
-                  color: Hexcolor("#627285"),
+                  color: HexColor("#627285"),
                 ),
               ),
             ),
@@ -257,7 +257,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                                   InkWell(
                                     child: Icon(
                                       Icons.close,
-                                      color: Hexcolor("#627285"),
+                                      color: HexColor("#627285"),
                                     ),
                                     onTap: () {
                                       setState(() {
@@ -295,7 +295,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                   fontWeight: FontWeight.w600,
                   fontFamily: "Montserrat",
                   fontSize: 19,
-                  color: Hexcolor("#0D3662"),
+                  color: HexColor("#0D3662"),
                 ),
               ),
             ),
@@ -309,7 +309,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                   fontSize: 19,
                   fontFamily: "Montserrat",
                   fontWeight: FontWeight.w600,
-                  color: Hexcolor("#0D3662"),
+                  color: HexColor("#0D3662"),
                 ),
               ),
             ),
@@ -318,7 +318,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: <Widget>[
-                  RatingBar(
+                  RatingBar.builder(
                     itemSize: 25,
                     initialRating: 0,
                     minRating: 0,
@@ -328,7 +328,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                     itemPadding: EdgeInsets.symmetric(horizontal: 1),
                     itemBuilder: (context, _) => Icon(
                       Icons.star,
-                      color: Hexcolor("##FECE2F"),
+                      color: HexColor("##FECE2F"),
                     ),
                     onRatingUpdate: (rating) {
                       print(rating);
@@ -341,7 +341,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                         fontSize: 13,
                         fontWeight: FontWeight.w400,
                         fontFamily: 'Montserrat',
-                        color: Hexcolor("#0D3662")),
+                        color: HexColor("#0D3662")),
                   ),
                 ],
               ),
@@ -363,7 +363,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.w600,
                             fontSize: 19.0,
-                            color: Hexcolor("#000080")),
+                            color: HexColor("#000080")),
                       ),
                     ],
                   ),
@@ -376,7 +376,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.w600,
                             fontSize: 19.0,
-                            color: Hexcolor("#000080")),
+                            color: HexColor("#000080")),
                       ),
                     ],
                   ),
@@ -404,7 +404,7 @@ class _ShoppingDetailPage extends State<ShoppingDetailPage> {
                     borderRadius: BorderRadius.circular(31),
                   ),
                   padding: const EdgeInsets.all(15),
-                  color: Hexcolor("#FF2D87"),
+                  color: HexColor("#FF2D87"),
                   textColor: Colors.white,
                   onPressed: () {},
                 ),

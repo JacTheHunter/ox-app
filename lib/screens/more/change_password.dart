@@ -81,7 +81,7 @@ class _ChangePassword extends State<ChangePassword>
                   width: 38,
                   height: 6,
                   decoration: BoxDecoration(
-                      color: Hexcolor("#979797"),
+                      color: HexColor("#979797"),
                       borderRadius: BorderRadius.circular(4.5)),
                 ),
               ),
@@ -126,7 +126,7 @@ class _ChangePassword extends State<ChangePassword>
                           fontWeight: FontWeight.w600,
                           fontFamily: 'Montserrat',
                           fontSize: 19,
-                          color: Hexcolor('#0D3662'),
+                          color: HexColor('#0D3662'),
                         ),
                       ),
                       SizedBox(height: 20),
@@ -136,7 +136,7 @@ class _ChangePassword extends State<ChangePassword>
                           fontWeight: FontWeight.w500,
                           fontFamily: 'Montserrat',
                           fontSize: 16,
-                          color: Hexcolor('#627285'),
+                          color: HexColor('#627285'),
                         ),
                       ),
                     ],
@@ -272,15 +272,15 @@ class _ChangePassword extends State<ChangePassword>
     );
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      backgroundColor: Hexcolor("#F7F8FB"),
+      backgroundColor: HexColor("#F7F8FB"),
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Hexcolor("#F7F8FB"),
+        backgroundColor: HexColor("#F7F8FB"),
         centerTitle: true,
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -293,7 +293,7 @@ class _ChangePassword extends State<ChangePassword>
             fontSize: 19,
             fontFamily: 'Montserrat',
             fontWeight: FontWeight.w600,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
         ),
       ),

@@ -73,7 +73,7 @@ class _Product_Image extends State<Product_Image>
                       EdgeInsets.only(left: width / 70, right: width / 70),
                       height: height / 38,
                       decoration: BoxDecoration(
-                        color: Hexcolor("#FF1C1C"),
+                        color: HexColor("#FF1C1C"),
                         borderRadius: BorderRadius.circular(5.0),
                         boxShadow: [
                           BoxShadow(
@@ -103,7 +103,7 @@ class _Product_Image extends State<Product_Image>
                       EdgeInsets.only(left: width / 70, right: width / 70),
                       height: height / 38,
                       decoration: BoxDecoration(
-                        color: Hexcolor("#78D35B"),
+                        color: HexColor("#78D35B"),
                         borderRadius: BorderRadius.circular(5.0),
                         boxShadow: [
                           BoxShadow(

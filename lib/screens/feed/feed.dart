@@ -50,7 +50,7 @@ class _FeedState extends State<FeedPage> {
                   Text(
                     "Мои магазины",
                     style: TextStyle(
-                        color: Hexcolor("#0D3662"),
+                        color: HexColor("#0D3662"),
                         fontWeight: FontWeight.w600,
                         fontFamily: "Montserrat",
                         fontSize: 16 / textScaleFactor),

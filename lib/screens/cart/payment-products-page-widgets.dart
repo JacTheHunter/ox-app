@@ -40,14 +40,14 @@ class _AddNewCardWidgetState extends State<AddNewCardWidget> {
               width: width * .11,
               height: height * .08,
               decoration: BoxDecoration(
-                  color: Hexcolor('#ECE1FE'),
+                  color: HexColor('#ECE1FE'),
                   borderRadius: BorderRadius.circular(11)),
               child: Center(
                 child: IconButton(
                   icon: Icon(
                     Icons.add,
                     size: 30,
-                    color: Hexcolor('#0D3662'),
+                    color: HexColor('#0D3662'),
                   ),
                   onPressed: () {
                     Navigator.push(
@@ -117,7 +117,7 @@ class _MyCardWidgetState extends State<MyCardWidget> {
                 Text(
                   'UzCard Office',
                   style: TextStyle(
-                    color: Hexcolor('#0D3662'),
+                    color: HexColor('#0D3662'),
                     fontWeight: FontWeight.w500,
                     fontSize: 14 / textScaleFactor,
                   ),

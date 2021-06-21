@@ -85,13 +85,13 @@ class _CheckoutProductItem extends State<CheckoutProductItem> {
                       fontFamily: 'Montserrat',
                       fontWeight: FontWeight.w500,
                       fontSize: 16 / textScaleFactor,
-                      color: Hexcolor('#0D3662'),
+                      color: HexColor('#0D3662'),
                     ),
                   ),
                   Text(
                     'ZF876',
                     style: TextStyle(
-                        color: Hexcolor('#627285'),
+                        color: HexColor('#627285'),
                         fontSize: 14 / textScaleFactor,
                         fontWeight: FontWeight.normal,
                         fontFamily: 'Montserrat'),
@@ -104,7 +104,7 @@ class _CheckoutProductItem extends State<CheckoutProductItem> {
                       Text(
                         'Color',
                         style: TextStyle(
-                          color: Hexcolor('#0D3662'),
+                          color: HexColor('#0D3662'),
                           fontFamily: 'Montserrat',
                           fontWeight: FontWeight.w500,
                           fontSize: 14 / textScaleFactor,
@@ -118,7 +118,7 @@ class _CheckoutProductItem extends State<CheckoutProductItem> {
                         height: width * .03,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(width * .03),
-                            color: Hexcolor(widget.cartItem.color)),
+                            color: HexColor(widget.cartItem.color)),
                       ),
                       SizedBox(
                         width: width * .03,
@@ -126,7 +126,7 @@ class _CheckoutProductItem extends State<CheckoutProductItem> {
                       Text(
                         widget.cartItem.size,
                         style: TextStyle(
-                          color: Hexcolor('#0D3662'),
+                          color: HexColor('#0D3662'),
                           fontFamily: 'Montserrat',
                           fontWeight: FontWeight.w500,
                           fontSize: 14 / textScaleFactor,
@@ -143,7 +143,7 @@ class _CheckoutProductItem extends State<CheckoutProductItem> {
                       Text(
                         widget.cartItem.quantity.toString() + ' x ',
                         style: TextStyle(
-                          color: Hexcolor('#0D3662'),
+                          color: HexColor('#0D3662'),
                           fontFamily: 'Montserrat',
                           fontWeight: FontWeight.w400,
                           fontSize: 14 / textScaleFactor,
@@ -157,7 +157,7 @@ class _CheckoutProductItem extends State<CheckoutProductItem> {
                             style: TextStyle(
                               color: this._hasDiscountPrice
                                   ? Colors.pinkAccent
-                                  : Hexcolor('#0D3662'),
+                                  : HexColor('#0D3662'),
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.w500,
                               fontSize: 16 / textScaleFactor,
@@ -169,8 +169,8 @@ class _CheckoutProductItem extends State<CheckoutProductItem> {
                             style: TextStyle(
                               decoration: TextDecoration.lineThrough,
                               decorationThickness: 1,
-                              decorationColor: Hexcolor('#627285'),
-                              color: Hexcolor('#627285'),
+                              decorationColor: HexColor('#627285'),
+                              color: HexColor('#627285'),
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.w500,
                               fontSize: 12 / textScaleFactor,
@@ -189,7 +189,7 @@ class _CheckoutProductItem extends State<CheckoutProductItem> {
               height: height * .1,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),
-                color: Hexcolor('#EBF1FD'),
+                color: HexColor('#EBF1FD'),
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,

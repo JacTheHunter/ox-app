@@ -57,7 +57,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
     return Scaffold(
       body: Container(
-        color: Hexcolor("#8A96AD"),
+        color: HexColor("#8A96AD"),
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: Column(
@@ -112,7 +112,7 @@ class _SplashScreenState extends State<SplashScreen> {
                                   borderRadius: BorderRadius.circular(31),
                                 ),
                                 padding: const EdgeInsets.all(15),
-                                color: Hexcolor("#B7C1D2"),
+                                color: HexColor("#B7C1D2"),
                                 textColor: Colors.white,
                                 onPressed: () {
                                   Navigator.push(

@@ -98,7 +98,7 @@ class _SecurityState extends State<Security> {
                 width: 38,
                 height: 6,
                 decoration: BoxDecoration(
-                    color: Hexcolor("#979797"),
+                    color: HexColor("#979797"),
                     borderRadius: BorderRadius.circular(4.5)),
               ),
             ),
@@ -117,7 +117,7 @@ class _SecurityState extends State<Security> {
                         fontWeight: FontWeight.w500,
                         fontFamily: 'Montserrat',
                         fontSize: 16,
-                        color: Hexcolor('#627285'),
+                        color: HexColor('#627285'),
                       ),
                     ),
                   ],
@@ -156,7 +156,7 @@ class _SecurityState extends State<Security> {
                   width: width / 10,
                   height: height / 120,
                   decoration: BoxDecoration(
-                    color: Hexcolor("#EBF1FD"),
+                    color: HexColor("#EBF1FD"),
                     borderRadius: BorderRadius.circular(4.5),
                   ),
                 ),
@@ -187,7 +187,7 @@ class _SecurityState extends State<Security> {
                         fontWeight: FontWeight.w600,
                         fontSize: 16 / textScaleFactor,
                         fontFamily: "Montserrat",
-                        color: Hexcolor("#2D2D2D"),
+                        color: HexColor("#2D2D2D"),
                       ),
                       length: 4,
                       onCompleted: (String value) {
@@ -264,15 +264,15 @@ class _SecurityState extends State<Security> {
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
     return Scaffold(
-      backgroundColor: Hexcolor("#F7F8FB"),
+      backgroundColor: HexColor("#F7F8FB"),
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Hexcolor("#F7F8FB"),
+        backgroundColor: HexColor("#F7F8FB"),
         centerTitle: true,
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -285,7 +285,7 @@ class _SecurityState extends State<Security> {
             fontSize: 19,
             fontFamily: 'Montserrat',
             fontWeight: FontWeight.w600,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
         ),
       ),
@@ -298,7 +298,7 @@ class _SecurityState extends State<Security> {
               width: 323,
               height: 253,
               decoration: BoxDecoration(
-                  color: Hexcolor('#EBF1FD'),
+                  color: HexColor('#EBF1FD'),
                   borderRadius: BorderRadius.circular(25.0)),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -333,7 +333,7 @@ class _SecurityState extends State<Security> {
                                     fontSize: 16,
                                     fontFamily: 'Montserrat',
                                     fontWeight: FontWeight.w500,
-                                    color: Hexcolor("#0D3662")),
+                                    color: HexColor("#0D3662")),
                               ),
                             ],
                           ),
@@ -367,7 +367,7 @@ class _SecurityState extends State<Security> {
                                     fontSize: 16,
                                     fontFamily: 'Montserrat',
                                     fontWeight: FontWeight.w500,
-                                    color: Hexcolor("#0D3662")),
+                                    color: HexColor("#0D3662")),
                               ),
                               SizedBox(width: width * .21),
                               Container(
@@ -406,7 +406,7 @@ class _SecurityState extends State<Security> {
                                     fontSize: 16,
                                     fontFamily: 'Montserrat',
                                     fontWeight: FontWeight.w500,
-                                    color: Hexcolor("#0D3662")),
+                                    color: HexColor("#0D3662")),
                               ),
                             ],
                           ),

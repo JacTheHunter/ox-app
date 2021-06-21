@@ -25,7 +25,7 @@ class _SearchPageState extends State<SearchPage> {
   Future<List<Note>> fetchNotes() async {
     var url =
         'https://raw.githubusercontent.com/boriszv/json/master/random_example.json';
-    var response = await http.get(url);
+    var response = await http.get(Uri.parse(url));
 
     var notes = List<Note>();
 
@@ -60,7 +60,7 @@ class _SearchPageState extends State<SearchPage> {
       leading: IconButton(
         icon: Icon(
           Icons.arrow_back_ios,
-          color: Hexcolor("#0D3662"),
+          color: HexColor("#0D3662"),
         ),
         onPressed: () {
           Navigator.of(context).pop();
@@ -147,8 +147,8 @@ class _SearchPageState extends State<SearchPage> {
                                   height: 37,
                                   decoration: BoxDecoration(
                                     color: _selectedCat1 == i
-                                        ? Hexcolor("#965EFF")
-                                        : Hexcolor("#EBF1FD"),
+                                        ? HexColor("#965EFF")
+                                        : HexColor("#EBF1FD"),
                                     borderRadius: BorderRadius.circular(9.0),
                                   ),
                                   child: Center(
@@ -164,7 +164,7 @@ class _SearchPageState extends State<SearchPage> {
                                           fontWeight: FontWeight.w400,
                                           color: _selectedCat1 == i
                                               ? Colors.white
-                                              : Hexcolor("#627285"),
+                                              : HexColor("#627285"),
                                         ),
                                       ),
                                     ),

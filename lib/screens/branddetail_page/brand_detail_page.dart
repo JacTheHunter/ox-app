@@ -45,7 +45,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
                   width: width * .1,
                   height: height * .01,
                   decoration: BoxDecoration(
-                      color: Hexcolor("#8A96AD"),
+                      color: HexColor("#8A96AD"),
                       borderRadius: BorderRadius.circular(4.5)),
                 ),
               ),
@@ -69,7 +69,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                           color: _selectedCat == i
-                              ? Hexcolor("#EBF1FD")
+                              ? HexColor("#EBF1FD")
                               : Colors.white,
                           borderRadius: BorderRadius.circular(14.0),
                         ),
@@ -83,7 +83,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
                                   fontSize: 16 / textScaleFactor,
                                   fontFamily: 'Montserrat',
                                   fontWeight: FontWeight.w400,
-                                  color: Hexcolor("#0D3662")),
+                                  color: HexColor("#0D3662")),
                             ),
                           ),
                         ),
@@ -118,7 +118,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
           fontWeight: FontWeight.w600,
           fontFamily: "Montserrat",
           fontSize: 19 / textScaleFactor,
-          color: Hexcolor('#0D3662'),
+          color: HexColor('#0D3662'),
         ),
       ),
       backgroundColor: Colors.transparent,
@@ -126,7 +126,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
       leading: IconButton(
         icon: Icon(
           Icons.arrow_back_ios,
-          color: Hexcolor("#0D3662"),
+          color: HexColor("#0D3662"),
         ),
         onPressed: () {
           Navigator.of(context).pop();
@@ -136,7 +136,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
         IconButton(
           icon: Icon(
             Icons.share,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
           onPressed: () {},
           tooltip: 'Share',
@@ -151,7 +151,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
     return SafeArea(
       child: Scaffold(
         appBar: appBar,
-        backgroundColor: Hexcolor("#F7F8FB"),
+        backgroundColor: HexColor("#F7F8FB"),
         body: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -198,7 +198,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
                                         fontSize: 13 / textScaleFactor,
                                         fontFamily: "montserrat",
                                         fontWeight: FontWeight.w400,
-                                        color: Hexcolor("#627285"),
+                                        color: HexColor("#627285"),
                                       ),
                                     ),
                                   ),
@@ -219,7 +219,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
                                                   fontFamily: "Montserrat",
                                                   fontSize:
                                                       12 / textScaleFactor,
-                                                  color: Hexcolor("#0D3662"),
+                                                  color: HexColor("#0D3662"),
                                                 ),
                                               ),
                                             ),
@@ -339,7 +339,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
                     fontFamily: "Montserrat",
                     fontSize: 19 / textScaleFactor,
                     fontWeight: FontWeight.w600,
-                    color: Hexcolor("#0D3662"),
+                    color: HexColor("#0D3662"),
                   ),
                 ),
               ),
@@ -356,7 +356,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
                         fontWeight: FontWeight.w500,
                         fontFamily: 'Montserrat',
                         fontSize: 14 / textScaleFactor,
-                        color: Hexcolor("#0D3662"),
+                        color: HexColor("#0D3662"),
                       ),
                     ),
                     Container(
@@ -372,7 +372,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
                         label: Text(
                           'Популярные',
                           style: TextStyle(
-                            color: Hexcolor("#0D3662"),
+                            color: HexColor("#0D3662"),
                             fontWeight: FontWeight.w500,
                             fontFamily: 'Montserrat',
                             fontSize: 12 / textScaleFactor,
@@ -404,7 +404,7 @@ class _BrandDetailPage extends State<BrandDetailPage> {
                         width: width * .11,
                         height: height * .06,
                         decoration: BoxDecoration(
-                            color: Hexcolor("#0D3662"),
+                            color: HexColor("#0D3662"),
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Center(
                           child: SvgPicture.asset('icons/filter.svg'),

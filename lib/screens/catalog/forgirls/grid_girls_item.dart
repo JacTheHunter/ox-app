@@ -190,7 +190,7 @@ class _Grid_Girls_ItemState extends State<Grid_Girls_Item>
                   fontSize: 11 / textScaleFactor,
                   fontFamily: 'Montserrat',
                   fontWeight: FontWeight.w400,
-                  color: Hexcolor("#627285")),
+                  color: HexColor("#627285")),
             ),
           ),
           Padding(
@@ -203,7 +203,7 @@ class _Grid_Girls_ItemState extends State<Grid_Girls_Item>
                     fontWeight: FontWeight.w400,
                     fontFamily: 'Montserrat',
                     fontSize: 14 / textScaleFactor,
-                    color: Hexcolor('#0D3662'),
+                    color: HexColor('#0D3662'),
                   ),
                 ),
                 Padding(
@@ -214,7 +214,7 @@ class _Grid_Girls_ItemState extends State<Grid_Girls_Item>
                     EdgeInsets.only(left: width * .01, right: width * .01),
                     height: height * .025,
                     decoration: BoxDecoration(
-                        color: Hexcolor("#FF1C1C"),
+                        color: HexColor("#FF1C1C"),
                         borderRadius: BorderRadius.circular(5.0)),
                     child: Center(
                       child: Text(
@@ -245,7 +245,7 @@ class _Grid_Girls_ItemState extends State<Grid_Girls_Item>
                 fontWeight: FontWeight.w400,
                 fontFamily: 'Montserrat',
                 fontSize: 14 / textScaleFactor,
-                color: Hexcolor('#0D3662'),
+                color: HexColor('#0D3662'),
               ),
             ),
           )
@@ -262,7 +262,7 @@ class Draw extends CustomPainter {
     final p1 = Offset(-1, 11);
     final p2 = Offset(110, 6.5);
     final paint = Paint()
-      ..color = Hexcolor('#F92121')
+      ..color = HexColor('#F92121')
       ..strokeWidth = 1.1;
     canvas.drawLine(p1, p2, paint);
   }

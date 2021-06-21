@@ -41,7 +41,7 @@ class _CheckItemState extends State<CheckItem> {
                   borderRadius: BorderRadius.circular(12.0),
                   child: Checkbox(
                     checkColor: Colors.blueAccent,
-                    activeColor: Hexcolor("#EBF1FD"),
+                    activeColor: HexColor("#EBF1FD"),
                     value: wedVal,
                     onChanged: (bool value) {
                       setState(() {
@@ -63,7 +63,7 @@ class _CheckItemState extends State<CheckItem> {
                       fontWeight: FontWeight.w400,
                       fontFamily: 'Montserrat',
                       fontSize: 16 / textScaleFactor,
-                      color: Hexcolor("#0D3662"),
+                      color: HexColor("#0D3662"),
                     ),
                   ),
                 ),
@@ -75,7 +75,7 @@ class _CheckItemState extends State<CheckItem> {
                       fontSize: 14 / textScaleFactor,
                       fontFamily: 'Montserrat',
                       fontWeight: FontWeight.w500,
-                      color: Hexcolor("#627285"),
+                      color: HexColor("#627285"),
                     ),
                     textAlign: TextAlign.right,
                   ),

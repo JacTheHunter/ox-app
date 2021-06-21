@@ -20,7 +20,7 @@ class _Shopping_Image extends State<Shopping_Image> {
     var height = MediaQuery.of(context).size.height;
     var textScaleFactor = MediaQuery.of(context).textScaleFactor;
     final productId =
-    ModalRoute.of(context).settings.arguments as String; // is the id!
+        ModalRoute.of(context).settings.arguments as String; // is the id!
     final loadedProduct = Provider.of<ShopProvider>(
       context,
       listen: false,
@@ -80,7 +80,7 @@ class _Shopping_Image extends State<Shopping_Image> {
                       Container(
                         width: width * 0.26,
                         height: height * 0.13,
-                     //   padding: EdgeInsets.all(51),
+                        //   padding: EdgeInsets.all(51),
                         decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(20),
@@ -91,7 +91,7 @@ class _Shopping_Image extends State<Shopping_Image> {
                         ),
                       ),
                       SizedBox(height: height * .01),
-                      RatingBar(
+                      RatingBar.builder(
                         itemSize: 16.5,
                         initialRating: 0,
                         minRating: 0,
@@ -101,7 +101,7 @@ class _Shopping_Image extends State<Shopping_Image> {
                         itemPadding: EdgeInsets.symmetric(horizontal: 1),
                         itemBuilder: (context, _) => Icon(
                           Icons.star,
-                          color: Hexcolor("##FECE2F"),
+                          color: HexColor("##FECE2F"),
                         ),
                         onRatingUpdate: (rating) {
                           print(rating);
@@ -157,7 +157,7 @@ class _Shopping_Image extends State<Shopping_Image> {
                           left: width * .03, right: width * .04),
                       height: height * .06,
                       decoration: BoxDecoration(
-                          color: Hexcolor("#2F80ED"),
+                          color: HexColor("#2F80ED"),
                           borderRadius: BorderRadius.circular(20.0)),
                       child: Center(
                         child: Text(
@@ -183,7 +183,7 @@ class _Shopping_Image extends State<Shopping_Image> {
                           left: width * .065, right: width * .065),
                       height: height * .055,
                       decoration: BoxDecoration(
-                          color: Hexcolor("#627285"),
+                          color: HexColor("#627285"),
                           borderRadius: BorderRadius.circular(20.0)),
                       child: Center(
                         child: Text(
@@ -209,7 +209,7 @@ class _Shopping_Image extends State<Shopping_Image> {
                       height: height * .055,
                       width: height * .055,
                       decoration: BoxDecoration(
-                          color: Hexcolor("#627285"),
+                          color: HexColor("#627285"),
                           borderRadius: BorderRadius.circular(height * .055)),
                       child: Center(child: SvgPicture.asset('icons/phone.svg')),
                     ),

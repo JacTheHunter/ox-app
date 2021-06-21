@@ -33,7 +33,7 @@ class _SummaryProductsState extends State<SummaryProducts> {
         top: height * .02,
       ),
       decoration: BoxDecoration(
-          color: Hexcolor('#0D3662'),
+          color: HexColor('#0D3662'),
           borderRadius: BorderRadius.only(
               topLeft: Radius.circular(30), topRight: Radius.circular(30))),
       child: Column(
@@ -43,7 +43,7 @@ class _SummaryProductsState extends State<SummaryProducts> {
             height: 6,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(4.5),
-                color: Hexcolor("#8A96AD")),
+                color: HexColor("#8A96AD")),
           ),
           SizedBox(
             height: height * .05,
@@ -133,7 +133,7 @@ class LineDashedPainter extends CustomPainter {
     var dashWidth = 10;
     var dashSpace = 10;
     double startX = -183;
-    final paint = Paint()..color = Hexcolor("#D8D8D8");
+    final paint = Paint()..color = HexColor("#D8D8D8");
     while (max >= 0) {
       canvas.drawLine(Offset(startX, 0), Offset(startX + dashWidth, 0),
           paint..strokeWidth = 1.5);

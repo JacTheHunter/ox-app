@@ -35,7 +35,7 @@ class _SizeFilterTileState extends State<SizeFilterTile> {
           color: Colors.white,
           border: Border.all(
             width: 2.5,
-            color: _isSelected ? Hexcolor("#965EFF") : Colors.white,
+            color: _isSelected ? HexColor("#965EFF") : Colors.white,
           ),
           borderRadius: BorderRadius.circular(15.0),
         ),
@@ -54,8 +54,8 @@ class _SizeFilterTileState extends State<SizeFilterTile> {
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w500,
                     color: _isSelected
-                        ? Hexcolor("#0D3662")
-                        : Hexcolor("#6683A5")),
+                        ? HexColor("#0D3662")
+                        : HexColor("#6683A5")),
               ),
             ],
           ),

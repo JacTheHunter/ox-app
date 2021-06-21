@@ -26,19 +26,19 @@ class _Filter extends State<Filter> {
     var textScaleFactor = MediaQuery.of(context).textScaleFactor;
 
     return Scaffold(
-      backgroundColor: Hexcolor("#F7F8FB"),
+      backgroundColor: HexColor("#F7F8FB"),
       appBar: AppBar(
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
           onPressed: () {
             Navigator.of(context).pop();
           },
         ),
-        iconTheme: new IconThemeData(color: Hexcolor('#000080')),
-        backgroundColor: Hexcolor("#F7F8FB"),
+        iconTheme: new IconThemeData(color: HexColor('#000080')),
+        backgroundColor: HexColor("#F7F8FB"),
         elevation: 0,
         centerTitle: true,
         title: Text(
@@ -47,7 +47,7 @@ class _Filter extends State<Filter> {
             fontWeight: FontWeight.w600,
             fontFamily: 'Montserrat',
             fontSize: 19 / textScaleFactor,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
         ),
         actions: <Widget>[
@@ -60,7 +60,7 @@ class _Filter extends State<Filter> {
                   fontSize: 16 / textScaleFactor,
                   fontFamily: 'Montserrat',
                   fontWeight: FontWeight.w400,
-                  color: Hexcolor("#627285"),
+                  color: HexColor("#627285"),
                 ),
               ),
             ),
@@ -74,7 +74,7 @@ class _Filter extends State<Filter> {
                 width * .02, height * .001, width * .02, height * .01),
             child: Card(
               elevation: 0,
-              color: Hexcolor("#EBF1FD"),
+              color: HexColor("#EBF1FD"),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
               ),
@@ -83,7 +83,7 @@ class _Filter extends State<Filter> {
                     top: 6.0, left: 6.0, right: 6.0, bottom: 6.0),
                 child: Theme(
                   data: Theme.of(context)
-                      .copyWith(dividerColor: Hexcolor("#EBF1FD")),
+                      .copyWith(dividerColor: HexColor("#EBF1FD")),
                   child: PriceFilter(),
                 ),
               ),
@@ -94,7 +94,7 @@ class _Filter extends State<Filter> {
                 width * .02, height * .001, width * .02, height * .01),
             child: Card(
               elevation: 0,
-              color: Hexcolor("#EBF1FD"),
+              color: HexColor("#EBF1FD"),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
               ),
@@ -103,7 +103,7 @@ class _Filter extends State<Filter> {
                     top: 6.0, left: 6.0, right: 6.0, bottom: 6.0),
                 child: Theme(
                   data: Theme.of(context)
-                      .copyWith(dividerColor: Hexcolor("#EBF1FD")),
+                      .copyWith(dividerColor: HexColor("#EBF1FD")),
                   child: CategoryFilter(),
                 ),
               ),
@@ -114,7 +114,7 @@ class _Filter extends State<Filter> {
                 width * .02, height * .001, width * .02, height * .01),
             child: Card(
               elevation: 0,
-              color: Hexcolor("#EBF1FD"),
+              color: HexColor("#EBF1FD"),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
               ),
@@ -123,7 +123,7 @@ class _Filter extends State<Filter> {
                     top: 6.0, left: 6.0, right: 6.0, bottom: 6.0),
                 child: Theme(
                   data: Theme.of(context)
-                      .copyWith(dividerColor: Hexcolor("#EBF1FD")),
+                      .copyWith(dividerColor: HexColor("#EBF1FD")),
                   child: ColorFilter(),
                 ),
               ),
@@ -134,7 +134,7 @@ class _Filter extends State<Filter> {
                 width * .02, height * .001, width * .02, height * .01),
             child: Card(
               elevation: 0,
-              color: Hexcolor("#EBF1FD"),
+              color: HexColor("#EBF1FD"),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(15.0),
               ),
@@ -143,7 +143,7 @@ class _Filter extends State<Filter> {
                     top: 6.0, left: 6.0, right: 6.0, bottom: 6.0),
                 child: Theme(
                   data: Theme.of(context)
-                      .copyWith(dividerColor: Hexcolor("#EBF1FD")),
+                      .copyWith(dividerColor: HexColor("#EBF1FD")),
                   child: SizeFilter(),
                 ),
               ),
@@ -162,7 +162,7 @@ class _Filter extends State<Filter> {
                       borderRadius: BorderRadius.all(Radius.circular(28.0))),
                   onPressed: () {},
                   elevation: 0,
-                  textColor: Hexcolor("#0D3662"),
+                  textColor: HexColor("#0D3662"),
                   color: Colors.white,
                   child: Padding(
                     padding: EdgeInsets.all(10.0),

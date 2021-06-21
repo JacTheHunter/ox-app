@@ -34,7 +34,7 @@ class _ColorFilterTileState extends State<ColorFilterTile> {
           shape: BoxShape.circle,
           border: Border.all(
               width: 3,
-              color: _isSelected ? Hexcolor("#965EFF") : Hexcolor("#EBF1FD")),
+              color: _isSelected ? HexColor("#965EFF") : HexColor("#EBF1FD")),
         ),
         child: Container(
           decoration: BoxDecoration(shape: BoxShape.circle),

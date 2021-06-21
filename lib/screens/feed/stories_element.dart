@@ -36,7 +36,7 @@ class _Stories_Element extends State<Stories_Element> {
         },
         child: this.widget.isSeen ? DashedCircle(
           strokeWidth: 1,
-          color: Hexcolor("#965EFF"),
+          color: HexColor("#965EFF"),
           child: Padding(
             padding: EdgeInsets.all(3),
             child: ClipOval(

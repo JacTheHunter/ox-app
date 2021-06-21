@@ -69,7 +69,7 @@ class _SignUpPageState extends State<SignUpPage> {
                           mainAxisAlignment: MainAxisAlignment.end,
                           children: <Widget>[
                             CloseButton(
-                              color: Hexcolor("#0D3662"),
+                              color: HexColor("#0D3662"),
                             ),
                           ],
                         ),
@@ -81,7 +81,7 @@ class _SignUpPageState extends State<SignUpPage> {
                           fontWeight: FontWeight.w500,
                           fontFamily: 'Montserrat',
                           fontSize: 19 / textScaleFactor,
-                          color: Hexcolor('#0D3662'),
+                          color: HexColor('#0D3662'),
                         ),
                       ),
                       SizedBox(height: height * .05),
@@ -97,7 +97,7 @@ class _SignUpPageState extends State<SignUpPage> {
                                 width: width * .4,
                                 height: height * .13,
                                 decoration: BoxDecoration(
-                                  color: Hexcolor("#EBF1FD"),
+                                  color: HexColor("#EBF1FD"),
                                   borderRadius: BorderRadius.circular(15),
                                 ),
                                 child: Column(
@@ -111,7 +111,7 @@ class _SignUpPageState extends State<SignUpPage> {
                                         fontWeight: FontWeight.w400,
                                         fontSize: 14 / textScaleFactor,
                                         fontFamily: 'Montserrat',
-                                        color: Hexcolor("#0D3662"),
+                                        color: HexColor("#0D3662"),
                                       ),
                                     ),
                                   ],
@@ -130,7 +130,7 @@ class _SignUpPageState extends State<SignUpPage> {
                                 width: width * .4,
                                 height: height * .13,
                                 decoration: BoxDecoration(
-                                  color: Hexcolor("#EBF1FD"),
+                                  color: HexColor("#EBF1FD"),
                                   borderRadius: BorderRadius.circular(15),
                                 ),
                                 child: Column(
@@ -144,7 +144,7 @@ class _SignUpPageState extends State<SignUpPage> {
                                         fontWeight: FontWeight.w400,
                                         fontSize: 14 / textScaleFactor,
                                         fontFamily: 'Montserrat',
-                                        color: Hexcolor("#0D3662"),
+                                        color: HexColor("#0D3662"),
                                       ),
                                     ),
                                   ],
@@ -166,13 +166,13 @@ class _SignUpPageState extends State<SignUpPage> {
     }
 
     TextStyle defaultStyle = TextStyle(
-        color: Hexcolor("#627285"),
+        color: HexColor("#627285"),
         fontSize: 16.0 / textScaleFactor,
         fontWeight: FontWeight.w400,
         fontFamily: 'Montserrat');
 
     TextStyle linkStyle = TextStyle(
-        color: Hexcolor("#0D3662"),
+        color: HexColor("#0D3662"),
         fontSize: 16.0 / textScaleFactor,
         fontWeight: FontWeight.w600,
         fontFamily: 'Montserrat');
@@ -187,7 +187,7 @@ class _SignUpPageState extends State<SignUpPage> {
             width: width * .9,
             height: height * .9,
             decoration: BoxDecoration(
-              color: Hexcolor("#EBF1FD"),
+              color: HexColor("#EBF1FD"),
               borderRadius: BorderRadius.circular(68),
               image: this._image == null
                   ? null
@@ -340,15 +340,15 @@ class _SignUpPageState extends State<SignUpPage> {
     );
 
     return Scaffold(
-      backgroundColor: Hexcolor("#F7F8FB"),
+      backgroundColor: HexColor("#F7F8FB"),
       appBar: AppBar(
         centerTitle: true,
         elevation: 0,
-        backgroundColor: Hexcolor("#F7F8FB"),
+        backgroundColor: HexColor("#F7F8FB"),
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -406,7 +406,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       child: Container(
                         width: width * .58,
                         height: height * .01,
-                        color: Hexcolor("#965EFF").withOpacity(0.2),
+                        color: HexColor("#965EFF").withOpacity(0.2),
                       ),
                     ),
                   ],

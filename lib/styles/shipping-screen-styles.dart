@@ -4,7 +4,7 @@ import 'package:hexcolor/hexcolor.dart';
 class ShippingScreenStyles {
   static TextStyle getSelectShipmentTextStyle() {
     return TextStyle(
-        fontFamily: 'Montserrat', fontSize: 14, color: Hexcolor('#0D3662'));
+        fontFamily: 'Montserrat', fontSize: 14, color: HexColor('#0D3662'));
   }
 
   static TextStyle getServiceTypeTextStyle() {
@@ -12,11 +12,11 @@ class ShippingScreenStyles {
         fontFamily: 'Montserrat',
         fontSize: 14,
         fontWeight: FontWeight.w500,
-        color: Hexcolor('#0D3662'));
+        color: HexColor('#0D3662'));
   }
 
   static TextStyle getServiceTypeChargeTextStyle() {
     return TextStyle(
-        fontFamily: 'Montserrat', fontSize: 14, color: Hexcolor('#627285'));
+        fontFamily: 'Montserrat', fontSize: 14, color: HexColor('#627285'));
   }
 }

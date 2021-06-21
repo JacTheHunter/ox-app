@@ -78,23 +78,23 @@ class _Top_Shop_Item extends State<Top_Shops_Item>
                     "Celio*",
                     textScaleFactor: 1,
                     style: TextStyle(
-                        color: Hexcolor("#0D3662"),
+                        color: HexColor("#0D3662"),
                         fontWeight: FontWeight.w600,
                         fontFamily: 'Montserrat',
                         fontSize: 20.0),
                   ),
-                  RatingBar(
+                  RatingBar.builder(
                     itemSize: width * .05,
                     initialRating: 0,
                     minRating: 0,
                     direction: Axis.horizontal,
                     allowHalfRating: true,
                     itemCount: 5,
-                    itemPadding: EdgeInsets.symmetric(horizontal: width * .005),
                     itemBuilder: (context, _) => Icon(
-                      Icons.star,
-                      color: Hexcolor("##FECE2F"),
-                    ),
+                  Icons.star,
+                  color: HexColor("##FECE2F"),
+                ),
+                    itemPadding: EdgeInsets.symmetric(horizontal: width * .005),
                     onRatingUpdate: (rating) {
                       print(rating);
                     },
@@ -133,7 +133,7 @@ class _Top_Shop_Item extends State<Top_Shops_Item>
                 },
                 icon: Icon(
                   Icons.arrow_forward_ios,
-                  color: Hexcolor("#0D3662"),
+                  color: HexColor("#0D3662"),
                   size: 24,
                 ),
               ),

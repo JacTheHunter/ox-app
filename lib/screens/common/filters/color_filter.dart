@@ -22,7 +22,7 @@ class _ColorFilterState extends State<ColorFilter> {
     return ExpansionTile(
       trailing: Icon(
         Icons.keyboard_arrow_down,
-        color: Hexcolor("#EBF1FD"),
+        color: HexColor("#EBF1FD"),
       ),
       leading: Padding(padding: EdgeInsets.only(left: 6.1), child: icon),
       onExpansionChanged: (val) {
@@ -36,7 +36,7 @@ class _ColorFilterState extends State<ColorFilter> {
             fontWeight: FontWeight.w400,
             fontFamily: 'Montserrat',
             fontSize: 16 / textScaleFactor,
-            color: Hexcolor("#0D3662")),
+            color: HexColor("#0D3662")),
       ),
       children: <Widget>[
         Padding(

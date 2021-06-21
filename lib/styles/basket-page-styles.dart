@@ -7,7 +7,7 @@ class BasketPageStyles {
         fontFamily: 'Montserrat',
         fontWeight: FontWeight.w600,
         fontSize: 19 / scale,
-        color: Hexcolor('#0D3662'));
+        color: HexColor('#0D3662'));
   }
 
   static TextStyle getBasketPageWelcomeText2Style(double scale) {
@@ -15,6 +15,6 @@ class BasketPageStyles {
         fontFamily: 'Montserrat',
         fontWeight: FontWeight.normal,
         fontSize: 16 / scale,
-        color: Hexcolor('#627285'));
+        color: HexColor('#627285'));
   }
 }

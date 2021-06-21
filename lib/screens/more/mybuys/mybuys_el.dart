@@ -33,7 +33,7 @@ class _myBuys_el extends State<myBuys_el> {
             width: width,
             height: height * .34,
             decoration: BoxDecoration(
-              color: Hexcolor("#EBF1FD"),
+              color: HexColor("#EBF1FD"),
               borderRadius: BorderRadius.circular(25.0),
             ),
             child: InkWell(
@@ -59,7 +59,7 @@ class _myBuys_el extends State<myBuys_el> {
                               fontFamily: 'Montserrat',
                               fontSize: 19 / textScaleFactor,
                               fontWeight: FontWeight.w600,
-                              color: Hexcolor("#0D3662"),
+                              color: HexColor("#0D3662"),
                             ),
                           ),
                           Text(
@@ -68,7 +68,7 @@ class _myBuys_el extends State<myBuys_el> {
                               fontFamily: 'Montserrat',
                               fontSize: 14 / textScaleFactor,
                               fontWeight: FontWeight.w400,
-                              color: Hexcolor("#627285"),
+                              color: HexColor("#627285"),
                             ),
                           ),
                         ],
@@ -96,7 +96,7 @@ class _myBuys_el extends State<myBuys_el> {
                                     SvgPicture.asset(
                                       'icons/store.svg',
                                       height: height * .025,
-                                      color: Hexcolor('#0D3662'),
+                                      color: HexColor('#0D3662'),
                                     ),
                                     SizedBox(width: width * .01),
                                     Text(
@@ -105,7 +105,7 @@ class _myBuys_el extends State<myBuys_el> {
                                         fontSize: 16 / textScaleFactor,
                                         fontFamily: 'Montserrat',
                                         fontWeight: FontWeight.w500,
-                                        color: Hexcolor("#0D3662"),
+                                        color: HexColor("#0D3662"),
                                       ),
                                     ),
                                   ],
@@ -116,7 +116,7 @@ class _myBuys_el extends State<myBuys_el> {
                                     fontSize: 14 / textScaleFactor,
                                     fontFamily: 'Montserrat',
                                     fontWeight: FontWeight.w400,
-                                    color: Hexcolor("#627285"),
+                                    color: HexColor("#627285"),
                                   ),
                                 ),
                               ],
@@ -128,7 +128,7 @@ class _myBuys_el extends State<myBuys_el> {
                             margin: EdgeInsets.only(
                                 left: width * .01, right: width * .01),
                             child:
-                            Divider(height: 0, color: Hexcolor("#F2F2F2")),
+                            Divider(height: 0, color: HexColor("#F2F2F2")),
                           ),
                           //Padding(
                           //  padding: EdgeInsets.fromLTRB(0, 0, 17, 0),
@@ -140,7 +140,7 @@ class _myBuys_el extends State<myBuys_el> {
                           //        height: 16,
                           //        decoration: BoxDecoration(
                           //          borderRadius: BorderRadius.circular(16),
-                          //          color: Hexcolor("#78D35B"),
+                          //          color: HexColor("#78D35B"),
                           //        ),
                           //        child: Text(
                           //          product.state,
@@ -165,7 +165,7 @@ class _myBuys_el extends State<myBuys_el> {
                                 fontWeight: FontWeight.w500,
                                 fontFamily: 'Montserrat',
                                 fontSize: 16 / textScaleFactor,
-                                color: Hexcolor('#0D3662'),
+                                color: HexColor('#0D3662'),
                               ),
                             ),
                           ),
@@ -183,8 +183,8 @@ class _myBuys_el extends State<myBuys_el> {
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(16),
                                 color: product.colorState
-                                    ? Hexcolor("#FECE2F")
-                                    : Hexcolor("#78D35B")),
+                                    ? HexColor("#FECE2F")
+                                    : HexColor("#78D35B")),
                             child: Center(
                               child: Text(
                                 product.state,
@@ -209,7 +209,7 @@ class _myBuys_el extends State<myBuys_el> {
                                 fontSize: 14 / textScaleFactor,
                                 fontFamily: 'Montserrat',
                                 fontWeight: FontWeight.w500,
-                                color: Hexcolor("#0D3662"),
+                                color: HexColor("#0D3662"),
                               ),
                             ),
                           ),

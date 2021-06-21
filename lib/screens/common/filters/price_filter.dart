@@ -29,7 +29,7 @@ class _PriceFilterState extends State<PriceFilter> with SingleTickerProviderStat
     return ExpansionTile(
       trailing: Icon(
         Icons.keyboard_arrow_down,
-        color: Hexcolor("#EBF1FD"),
+        color: HexColor("#EBF1FD"),
       ),
       leading: Padding(padding: EdgeInsets.only(left: 6.1), child: icon),
       onExpansionChanged: (val) {
@@ -45,7 +45,7 @@ class _PriceFilterState extends State<PriceFilter> with SingleTickerProviderStat
                 fontWeight: FontWeight.w400,
                 fontFamily: 'Montserrat',
                 fontSize: 16 / textScaleFactor,
-                color: Hexcolor("#0D3662")),
+                color: HexColor("#0D3662")),
           ),
           SizedBox(width: width * .03),
           icon == remove

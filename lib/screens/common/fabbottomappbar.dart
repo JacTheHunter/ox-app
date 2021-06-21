@@ -34,7 +34,7 @@ class FABBottomAppBar extends StatefulWidget {
   final double height;
   final double iconSize;
   final Color backgroundColor;
-  final Hexcolor color;
+  final HexColor color;
   final NotchedShape notchedShape;
   final ValueChanged<int> onTabSelected;
 
@@ -73,7 +73,7 @@ class FABBottomAppBarState extends State<FABBottomAppBar> {
             width: width,
             height: height * .1,
             decoration: BoxDecoration(
-                color: Hexcolor('946DDC'),
+                color: HexColor('946DDC'),
                 borderRadius: BorderRadius.only(
                   topRight: Radius.circular(31),
                   topLeft: Radius.circular(31),
@@ -110,7 +110,7 @@ class FABBottomAppBarState extends State<FABBottomAppBar> {
                         child: Center(
                           child: SvgPicture.asset(
                             "icons/qrcode2.svg",
-                            color: Hexcolor("#965EFF"),
+                            color: HexColor("#965EFF"),
                             height: width * .09,
                             width: width * .09,
                           ),

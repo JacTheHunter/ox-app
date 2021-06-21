@@ -35,7 +35,7 @@ class _Balance extends State<Balance> {
                 ],
               ),
               child: Card(
-                color: Hexcolor("#FF2727"),
+                color: HexColor("#FF2727"),
                 elevation: 0,
                 child: Padding(
                   padding: EdgeInsets.fromLTRB(20, 0, 0, 0),
@@ -127,7 +127,7 @@ class _Balance extends State<Balance> {
                 ],
               ),
               child: Card(
-                color: Hexcolor("#965EFF"),
+                color: HexColor("#965EFF"),
                 elevation: 0.0,
                 child: Padding(
                   padding: EdgeInsets.fromLTRB(20, 0, 0, 0),

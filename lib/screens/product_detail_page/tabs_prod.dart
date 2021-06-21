@@ -50,9 +50,9 @@ class _TabsProduct extends State<TabsProduct> with TickerProviderStateMixin {
                 Padding(
                   padding: EdgeInsets.all(13),
                   child: TabBar(
-                    labelColor: Hexcolor("#0D3662"),
-                    unselectedLabelColor: Hexcolor("#B7C1D2"),
-                    indicatorColor: Hexcolor("#0D3662"),
+                    labelColor: HexColor("#0D3662"),
+                    unselectedLabelColor: HexColor("#B7C1D2"),
+                    indicatorColor: HexColor("#0D3662"),
                     indicatorSize: TabBarIndicatorSize.label,
                     controller: tabController,
                     tabs: <Widget>[
@@ -63,7 +63,7 @@ class _TabsProduct extends State<TabsProduct> with TickerProviderStateMixin {
                             fontFamily: 'Montserrat',
                             fontSize: 16 / textScaleFactor,
                             fontWeight: FontWeight.w600,
-                            //color: Hexcolor("#0D3662"),
+                            //color: HexColor("#0D3662"),
                           ),
                         ),
                       ),
@@ -74,7 +74,7 @@ class _TabsProduct extends State<TabsProduct> with TickerProviderStateMixin {
                             fontFamily: 'Montserrat',
                             fontSize: 16 / textScaleFactor,
                             fontWeight: FontWeight.w600,
-                            //color: Hexcolor("#0D3662"),
+                            //color: HexColor("#0D3662"),
                           ),
                         ),
                       ),
@@ -95,7 +95,7 @@ class _TabsProduct extends State<TabsProduct> with TickerProviderStateMixin {
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.w400,
                             fontSize: 14 / textScaleFactor,
-                            color: Hexcolor("#627285"),
+                            color: HexColor("#627285"),
                           ),
                         ),
                       ),
@@ -106,7 +106,7 @@ class _TabsProduct extends State<TabsProduct> with TickerProviderStateMixin {
                           style: TextStyle(
                             fontFamily: 'Montserrat',
                             fontSize: 14 / textScaleFactor,
-                            color: Hexcolor("#627285"),
+                            color: HexColor("#627285"),
                           ),
                         ),
                       ),

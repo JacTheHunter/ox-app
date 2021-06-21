@@ -59,7 +59,7 @@ class _CategoryFilterState extends State<CategoryFilter> {
                       fontWeight: FontWeight.w500,
                       fontFamily: 'Montserrat',
                       fontSize: 16 / textScaleFactor,
-                      color: Hexcolor("#965EFF")),
+                      color: HexColor("#965EFF")),
                 ),
               ),
             ),
@@ -75,7 +75,7 @@ class _CategoryFilterState extends State<CategoryFilter> {
             fontWeight: FontWeight.w400,
             fontFamily: 'Montserrat',
             fontSize: 16 / textScaleFactor,
-            color: Hexcolor("#0D3662")),
+            color: HexColor("#0D3662")),
       ),
       children: <Widget>[
         ListView.builder(
@@ -108,7 +108,7 @@ class _CategoryFilterState extends State<CategoryFilter> {
                           });
                         },
                         textColor: Colors.white,
-                        color: Hexcolor("#0E3763"),
+                        color: HexColor("#0E3763"),
                         child: Padding(
                           padding: EdgeInsets.all(10.0),
                           child: Text(

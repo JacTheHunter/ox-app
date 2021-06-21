@@ -50,7 +50,7 @@ class SubSubItem extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                   fontFamily: 'Montserrat',
                   fontSize: 13 / textScaleFactor,
-                  color: Hexcolor("#0D3662"),
+                  color: HexColor("#0D3662"),
                 ),
               ),
             ],

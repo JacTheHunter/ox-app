@@ -25,7 +25,7 @@ class _OrderSuccessPageState extends State<OrderSuccessPage> {
       body: Container(
         width: width,
         height: height,
-        color: Hexcolor('#F7F8FB'),
+        color: HexColor('#F7F8FB'),
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
@@ -44,7 +44,7 @@ class _OrderSuccessPageState extends State<OrderSuccessPage> {
                       IconButton(
                         icon: Icon(
                           Icons.close,
-                          color: Hexcolor("#0D3662"),
+                          color: HexColor("#0D3662"),
                           size: 30,
                         ),
                         onPressed: () {
@@ -65,7 +65,7 @@ class _OrderSuccessPageState extends State<OrderSuccessPage> {
                 child: Text(
                   'Оплата прошла успешно',
                   style: TextStyle(
-                    color: Hexcolor('#0D3662'),
+                    color: HexColor('#0D3662'),
                     fontWeight: FontWeight.w600,
                     fontSize: 19 / textScaleFactor,
                   ),
@@ -82,7 +82,7 @@ class _OrderSuccessPageState extends State<OrderSuccessPage> {
                   child: Text(
                     'Ваша оплата прошла успешно, для того что бы проследить за своим заказов перейдите в “Мои покупки”',
                     style: TextStyle(
-                      color: Hexcolor('#627285'),
+                      color: HexColor('#627285'),
                       fontSize: 16 / textScaleFactor,
                     ),
                     textAlign: TextAlign.center,

@@ -140,7 +140,7 @@ class _ProductDeliveryPageState extends State<ProductDeliveryPage>
     return Container(
       width: width,
       height: height,
-      color: Hexcolor('#F7F8FB'),
+      color: HexColor('#F7F8FB'),
       child: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
@@ -159,7 +159,7 @@ class _ProductDeliveryPageState extends State<ProductDeliveryPage>
                     IconButton(
                       icon: Icon(
                         Icons.close,
-                        color: Hexcolor("#0D3662"),
+                        color: HexColor("#0D3662"),
                         size: 30,
                       ),
                       onPressed: () {
@@ -198,7 +198,7 @@ class _ProductDeliveryPageState extends State<ProductDeliveryPage>
                     top: height * .02,
                     bottom: height * .01),
                 decoration: BoxDecoration(
-                  color: Hexcolor('#EBF1FD'),
+                  color: HexColor('#EBF1FD'),
                   borderRadius: BorderRadius.circular(25),
                 ),
                 child: SingleChildScrollView(
@@ -295,7 +295,7 @@ class _ProductDeliveryPageState extends State<ProductDeliveryPage>
         top: height * .02,
       ),
       decoration: BoxDecoration(
-        color: Hexcolor('#EBF1FD'),
+        color: HexColor('#EBF1FD'),
         borderRadius: BorderRadius.circular(25),
       ),
       child: SingleChildScrollView(
@@ -332,7 +332,7 @@ class _ProductDeliveryPageState extends State<ProductDeliveryPage>
             'Итого',
             textScaleFactor: 1,
             style: TextStyle(
-              color: Hexcolor('#0D3662'),
+              color: HexColor('#0D3662'),
               fontSize: 16,
             ),
           ),
@@ -340,7 +340,7 @@ class _ProductDeliveryPageState extends State<ProductDeliveryPage>
             '${cart.totalAmount} UZS',
             textScaleFactor: 1,
             style: TextStyle(
-              color: Hexcolor('#0D3662'),
+              color: HexColor('#0D3662'),
               fontWeight: FontWeight.w600,
             ),
           ),

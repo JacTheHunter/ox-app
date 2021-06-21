@@ -29,12 +29,12 @@ class _MyBuys extends State<MyBuys> {
     var scaffoldWithBottomNavigation = ScaffoldWithBottomNavigation();
     scaffoldWithBottomNavigation.appBar = AppBar(
       elevation: 0,
-      backgroundColor: Hexcolor("#F7F8FB"),
+      backgroundColor: HexColor("#F7F8FB"),
       centerTitle: true,
       leading: IconButton(
         icon: Icon(
           Icons.arrow_back_ios,
-          color: Hexcolor("#0D3662"),
+          color: HexColor("#0D3662"),
         ),
         onPressed: () {
           Navigator.of(context).pop();
@@ -56,7 +56,7 @@ class _MyBuys extends State<MyBuys> {
                       fontFamily: "Montserrat",
                       fontWeight: FontWeight.w600,
                       fontSize: 28,
-                      color: Hexcolor("#0D3662"),
+                      color: HexColor("#0D3662"),
                     ),
                   ),
                 ),
@@ -82,8 +82,8 @@ class _MyBuys extends State<MyBuys> {
                                   height: 37,
                                   decoration: BoxDecoration(
                                     color: _selectedCat == i
-                                        ? Hexcolor("#965EFF")
-                                        : Hexcolor("#EBF1FD"),
+                                        ? HexColor("#965EFF")
+                                        : HexColor("#EBF1FD"),
                                     borderRadius: BorderRadius.circular(9.0),
                                   ),
                                   child: Center(
@@ -98,7 +98,7 @@ class _MyBuys extends State<MyBuys> {
                                           fontWeight: FontWeight.w400,
                                           color: _selectedCat == i
                                               ? Colors.white
-                                              : Hexcolor("#627285"),
+                                              : HexColor("#627285"),
                                         ),
                                       ),
                                     ),

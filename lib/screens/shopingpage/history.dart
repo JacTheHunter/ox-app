@@ -155,7 +155,7 @@ class _History extends State<History> {
             fontWeight: FontWeight.w600,
             fontFamily: "Montserrat",
             fontSize: 19,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
         ),
       ),
@@ -188,7 +188,7 @@ class _History extends State<History> {
                         ],
                       ),
                       child: Card(
-                        color: Hexcolor("#FF2727"),
+                        color: HexColor("#FF2727"),
                         elevation: 0,
                         child: Padding(
                           padding: EdgeInsets.fromLTRB(20, 0, 0, 0),
@@ -265,7 +265,7 @@ class _History extends State<History> {
                         ],
                       ),
                       child: Card(
-                        color: Hexcolor("#965EFF"),
+                        color: HexColor("#965EFF"),
                         elevation: 0,
                         child: Padding(
                           padding: EdgeInsets.fromLTRB(20, 0, 0, 0),
@@ -333,7 +333,7 @@ class _History extends State<History> {
                     fontSize: 19,
                     fontFamily: "Montserrat",
                     fontWeight: FontWeight.w600,
-                    color: Hexcolor("#0D3662"),
+                    color: HexColor("#0D3662"),
                   ),
                 ),
               ),
@@ -343,7 +343,7 @@ class _History extends State<History> {
                   padding: EdgeInsets.only(bottom: height / 30),
                   width: width,
                   decoration: BoxDecoration(
-                    color: Hexcolor('#EBF1FD'),
+                    color: HexColor('#EBF1FD'),
                     borderRadius: BorderRadius.circular(25),
                   ),
                   child: ListView.builder(

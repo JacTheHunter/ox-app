@@ -24,14 +24,14 @@ class _Favourites extends State<Favourites> {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Hexcolor("#F7F8FB"),
+        backgroundColor: HexColor("#F7F8FB"),
         appBar: AppBar(
           elevation: 0.0,
-          backgroundColor: Hexcolor("#F7F8FB"),
+          backgroundColor: HexColor("#F7F8FB"),
           leading: IconButton(
             icon: Icon(
               Icons.arrow_back_ios,
-              color: Hexcolor("#0D3662"),
+              color: HexColor("#0D3662"),
             ),
             onPressed: () {
               Navigator.of(context).pop();

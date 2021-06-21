@@ -41,7 +41,7 @@ class _Review1State extends State<Review1> {
                 width: width / 10,
                 height: height / 120,
                 decoration: BoxDecoration(
-                  color: Hexcolor("#EBF1FD"),
+                  color: HexColor("#EBF1FD"),
                   borderRadius: BorderRadius.circular(4.5),
                 ),
               ),
@@ -103,7 +103,7 @@ class _Review1State extends State<Review1> {
           child: Container(
             width: width,
             decoration: BoxDecoration(
-              color: Hexcolor("#EBF1FD"),
+              color: HexColor("#EBF1FD"),
               borderRadius: BorderRadius.all(Radius.circular(25.0)),
             ),
             child: Padding(
@@ -118,7 +118,7 @@ class _Review1State extends State<Review1> {
                       fontWeight: FontWeight.w500,
                       fontSize: 14,
                       fontFamily: 'Montserrat',
-                      color: Hexcolor("#0D3662"),
+                      color: HexColor("#0D3662"),
                     ),
                   ),
                   Text(
@@ -127,7 +127,7 @@ class _Review1State extends State<Review1> {
                       fontWeight: FontWeight.w400,
                       fontSize: 10,
                       fontFamily: 'Montserrat',
-                      color: Hexcolor("#0D3662"),
+                      color: HexColor("#0D3662"),
                     ),
                   ),
                 ],
@@ -143,8 +143,8 @@ class _Review1State extends State<Review1> {
             onPressed: () {
               _settingModalBottomSheet(context);
             },
-            color: Hexcolor("#EBF1FD"),
-            textColor: Hexcolor("#B7C1D2"),
+            color: HexColor("#EBF1FD"),
+            textColor: HexColor("#B7C1D2"),
             elevation: 0,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(31),

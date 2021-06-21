@@ -44,7 +44,7 @@ class ProductCard extends StatelessWidget {
                       borderRadius: BorderRadius.all(Radius.circular(29.0)),
                       boxShadow: [
                         BoxShadow(
-                          color: Hexcolor("#979797").withOpacity(0.3),
+                          color: HexColor("#979797").withOpacity(0.3),
                           blurRadius: 12,
                           offset: Offset(0, 7),
                         )
@@ -62,14 +62,14 @@ class ProductCard extends StatelessWidget {
                           fontSize: 15.3,
                           fontWeight: FontWeight.w400,
                           fontFamily: 'Montserrat',
-                          color: Hexcolor("#0D3662"),
+                          color: HexColor("#0D3662"),
                         ),
                       ),
                       SizedBox(height: 8.4),
                       Text(
                         "Colin's",
                         style: TextStyle(
-                            color: Hexcolor("#0D3662"),
+                            color: HexColor("#0D3662"),
                             fontWeight: FontWeight.w600,
                             fontFamily: 'Montserrat',
                             fontSize: 19.0),
@@ -83,7 +83,7 @@ class ProductCard extends StatelessWidget {
                     onPressed: () {},
                     icon: Icon(
                       Icons.arrow_forward_ios,
-                      color: Hexcolor("#0D3662"),
+                      color: HexColor("#0D3662"),
                       size: 24,
                     ),
                   ),

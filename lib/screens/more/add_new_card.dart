@@ -42,7 +42,7 @@ class _NewCardState extends State<NewCard> {
                     width: width / 10,
                     height: height / 120,
                     decoration: BoxDecoration(
-                      color: Hexcolor("#EBF1FD"),
+                      color: HexColor("#EBF1FD"),
                       borderRadius: BorderRadius.circular(4.5),
                     ),
                   ),
@@ -74,7 +74,7 @@ class _NewCardState extends State<NewCard> {
                           fontWeight: FontWeight.w600,
                           fontSize: 16 / textScaleFactor,
                           fontFamily: "Montserrat",
-                          color: Hexcolor("#2D2D2D"),
+                          color: HexColor("#2D2D2D"),
                         ),
                         length: 4,
                         onCompleted: (String value) {
@@ -162,7 +162,7 @@ class _NewCardState extends State<NewCard> {
           leading: IconButton(
             icon: Icon(
               Icons.arrow_back_ios,
-              color: Hexcolor("#0D3662"),
+              color: HexColor("#0D3662"),
             ),
             onPressed: () {
               Navigator.of(context).pop();
@@ -357,7 +357,7 @@ class _NewCardState extends State<NewCard> {
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: <Widget>[
                         Checkbox(
-                            activeColor: Hexcolor("#FF2D87"),
+                            activeColor: HexColor("#FF2D87"),
                             value: wedVal,
                             onChanged: (bool value) {
                               setState(() {

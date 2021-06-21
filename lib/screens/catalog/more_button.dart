@@ -28,7 +28,7 @@ class _More_Button extends State<More_Button> {
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w500,
                     fontSize: 15.0 / textScaleFactor,
-                    color: Hexcolor("#000080"),
+                    color: HexColor("#000080"),
                   ),
                 ),
                 Padding(
@@ -36,7 +36,7 @@ class _More_Button extends State<More_Button> {
                   child: Container(
                     width: width * .25,
                     height: height * .01,
-                    color: Hexcolor("#965EFF").withOpacity(0.2),
+                    color: HexColor("#965EFF").withOpacity(0.2),
                   ),
                 ),
               ],

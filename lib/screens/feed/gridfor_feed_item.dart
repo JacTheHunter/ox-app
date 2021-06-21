@@ -49,7 +49,7 @@ class _GridFor_FeedItem extends State<GridFor_FeedItem> with SingleTickerProvide
                         fontWeight: FontWeight.w400,
                         fontFamily: "Montserrat",
                         fontSize: 14,
-                        color: Hexcolor('#0D3662')),
+                        color: HexColor('#0D3662')),
                   ),
                   Text(
                     productData.discount,
@@ -57,7 +57,7 @@ class _GridFor_FeedItem extends State<GridFor_FeedItem> with SingleTickerProvide
                       fontWeight: FontWeight.w500,
                       fontFamily: "Montserrat",
                       fontSize: 14,
-                      color: Hexcolor('#0D3662'),
+                      color: HexColor('#0D3662'),
                     ),
                   ),
                   Text(
@@ -66,7 +66,7 @@ class _GridFor_FeedItem extends State<GridFor_FeedItem> with SingleTickerProvide
                       fontWeight: FontWeight.w500,
                       fontFamily: "Montserrat",
                       fontSize: 14,
-                      color: Hexcolor('#0D3662'),
+                      color: HexColor('#0D3662'),
                     ),
                   ),
                 ],

@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:fuckingnum/screens/authentication/intro/screens/splash_screen.dart';
@@ -14,16 +15,17 @@ class App extends StatefulWidget {
 class _AppState extends State<App> {
   final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
 
-  FirebaseUser user;
+  User user;
 
   @override
   void initState() {
     super.initState();
+    Firebase.initializeApp();
     getCurrentUser();
   }
 
   void getCurrentUser() async {
-    FirebaseUser _user = await _firebaseAuth.currentUser();
+    User _user = _firebaseAuth.currentUser;
     setState(() {
       user = _user;
     });

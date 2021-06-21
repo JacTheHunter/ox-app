@@ -19,8 +19,13 @@ import 'screens/authentication/intro/screens/app.dart';
 import 'screens/cart/check-out-product-page.dart';
 import './transitions/rightslide.dart';
 import './screens/models/screen_arguments.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() => runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
@@ -60,7 +65,6 @@ class MyApp extends StatelessWidget {
           BrandDetailPage.routeName: (ctx) => BrandDetailPage(),
           ShoppingDetailPage.routeName: (ctx) => ShoppingDetailPage(),
           MyCards.routeName: (ctx) => MyCards(),
-
         },
         onGenerateRoute: (settings) {
           final ScreenArguments args = settings.arguments;

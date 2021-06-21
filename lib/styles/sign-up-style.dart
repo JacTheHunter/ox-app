@@ -16,7 +16,7 @@ class SignUpStyle {
       fontSize: 16 / scale,
       fontWeight: FontWeight.w500,
       fontFamily: 'Montserrat',
-      color: Hexcolor("#627285"),
+      color: HexColor("#627285"),
     );
   }
 
@@ -26,7 +26,7 @@ class SignUpStyle {
       fontSize: 16 / scale,
       fontWeight: FontWeight.w400,
       fontFamily: 'Montserrat',
-      color: Hexcolor("#627285"),
+      color: HexColor("#627285"),
     );
   }
 
@@ -44,7 +44,7 @@ class SignUpStyle {
       fontFamily: 'Montserrat',
       fontWeight: FontWeight.w600,
       fontSize: 19.0 / scale,
-      color: Hexcolor("#0D3662"),
+      color: HexColor("#0D3662"),
     );
   }
 

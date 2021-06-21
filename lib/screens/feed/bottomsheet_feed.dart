@@ -42,7 +42,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                   width: width / 18,
                   height: height * .01,
                   decoration: BoxDecoration(
-                    color: Hexcolor("#EBF1FD"),
+                    color: HexColor("#EBF1FD"),
                     borderRadius: BorderRadius.circular(20),
                   ),
                 ),
@@ -51,7 +51,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                   width: width / 3,
                   height: height * .01,
                   decoration: BoxDecoration(
-                    color: Hexcolor("#EBF1FD"),
+                    color: HexColor("#EBF1FD"),
                     borderRadius: BorderRadius.circular(20),
                   ),
                 ),
@@ -60,7 +60,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                   width: width / 18,
                   height: height * .01,
                   decoration: BoxDecoration(
-                    color: Hexcolor("#EBF1FD"),
+                    color: HexColor("#EBF1FD"),
                     borderRadius: BorderRadius.circular(20),
                   ),
                 ),
@@ -84,7 +84,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Hexcolor("#979797").withOpacity(0.1),
+                        color: HexColor("#979797").withOpacity(0.1),
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: Offset(0, 3),
@@ -102,7 +102,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 12 / textScaleFactor,
-                          color: Hexcolor("#0D3662")),
+                          color: HexColor("#0D3662")),
                     ),
                     Text(
                       "10 часов назад",
@@ -110,7 +110,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 8 / textScaleFactor,
-                          color: Hexcolor("#B7C1D2")),
+                          color: HexColor("#B7C1D2")),
                     ),
                   ],
                 ),
@@ -162,7 +162,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                     fontSize: 11 / textScaleFactor,
                     fontFamily: "Montserrat",
                     fontWeight: FontWeight.w400,
-                    color: Hexcolor("#4F4F4F"),
+                    color: HexColor("#4F4F4F"),
                   ),
                 ),
               ),
@@ -223,7 +223,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Hexcolor("#979797").withOpacity(0.1),
+                        color: HexColor("#979797").withOpacity(0.1),
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: Offset(0, 3),
@@ -241,7 +241,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 12 / textScaleFactor,
-                          color: Hexcolor("#0D3662")),
+                          color: HexColor("#0D3662")),
                     ),
                     Text(
                       "12 часов назад",
@@ -249,7 +249,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 8 / textScaleFactor,
-                          color: Hexcolor("#B7C1D2")),
+                          color: HexColor("#B7C1D2")),
                     ),
                   ],
                 ),
@@ -268,7 +268,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                     fontSize: 11 / textScaleFactor,
                     fontFamily: "Montserrat",
                     fontWeight: FontWeight.w400,
-                    color: Hexcolor("#4F4F4F"),
+                    color: HexColor("#4F4F4F"),
                   ),
                 ),
                 Padding(
@@ -330,7 +330,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Hexcolor("#979797").withOpacity(0.1),
+                        color: HexColor("#979797").withOpacity(0.1),
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: Offset(0, 3),
@@ -348,7 +348,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 12 / textScaleFactor,
-                          color: Hexcolor("#0D3662")),
+                          color: HexColor("#0D3662")),
                     ),
                     Text(
                       "вчера",
@@ -356,7 +356,7 @@ class _bottomSheetFeed extends State<bottomSheetFeed> {
                         fontWeight: FontWeight.w500,
                         fontFamily: "Montserrat",
                         fontSize: 8 / textScaleFactor,
-                        color: Hexcolor("#B7C1D2"),
+                        color: HexColor("#B7C1D2"),
                       ),
                     ),
                   ],

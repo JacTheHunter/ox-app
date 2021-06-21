@@ -102,7 +102,7 @@ class TabBarChild extends StatelessWidget {
                         fontSize: 12,
                         fontFamily: "Montserrat",
                         fontWeight: FontWeight.w400,
-                        color: Hexcolor("#627285"),
+                        color: HexColor("#627285"),
                       ),
                     ),
                     SizedBox(height: 10),
@@ -112,7 +112,7 @@ class TabBarChild extends StatelessWidget {
                         fontWeight: FontWeight.w400,
                         fontFamily: 'Montserrat',
                         fontSize: 12,
-                        color: Hexcolor("#627285"),
+                        color: HexColor("#627285"),
                       ),
                     ),
                     Text(
@@ -121,7 +121,7 @@ class TabBarChild extends StatelessWidget {
                         fontWeight: FontWeight.w400,
                         fontFamily: 'Montserrat',
                         fontSize: 12,
-                        color: Hexcolor("#627285"),
+                        color: HexColor("#627285"),
                       ),
                     ),
                   ],
@@ -130,7 +130,7 @@ class TabBarChild extends StatelessWidget {
                   width: width / 3.9,
                   height: height / 7.5,
                   decoration: BoxDecoration(
-                    color: Hexcolor('#979797'),
+                    color: HexColor('#979797'),
                     image: DecorationImage(
                         image: AssetImage(properties[index].image),
                         fit: BoxFit.cover),
@@ -143,7 +143,7 @@ class TabBarChild extends StatelessWidget {
           Container(
             height: 0,
             width: MediaQuery.of(context).size.width,
-            child: Divider(height: 0, color: Hexcolor('#979797')),
+            child: Divider(height: 0, color: HexColor('#979797')),
           ),
         ],
       ),

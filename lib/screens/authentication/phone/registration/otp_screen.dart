@@ -33,27 +33,27 @@ class _OTPScreenState extends State<OTPScreen>
     var textScaleFactor = MediaQuery.of(context).textScaleFactor;
 
     TextStyle defaultStyle = TextStyle(
-        color: Hexcolor("#627285"),
+        color: HexColor("#627285"),
         fontSize: 16.0 / textScaleFactor,
         fontWeight: FontWeight.w400,
         fontFamily: 'Montserrat');
 
     TextStyle linkStyle = TextStyle(
-        color: Hexcolor("#0D3662"),
+        color: HexColor("#0D3662"),
         fontSize: 16.0 / textScaleFactor,
         fontWeight: FontWeight.w600,
         fontFamily: 'Montserrat');
 
     return Scaffold(
-      backgroundColor: Hexcolor("#F7F8FB"),
+      backgroundColor: HexColor("#F7F8FB"),
       appBar: AppBar(
         centerTitle: true,
         elevation: 0.0,
-        backgroundColor: Hexcolor("#F7F8FB"),
+        backgroundColor: HexColor("#F7F8FB"),
         leading:  IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -65,7 +65,7 @@ class _OTPScreenState extends State<OTPScreen>
             fontFamily: 'Montserrat',
             fontWeight: FontWeight.w600,
             fontSize: 19.0 / textScaleFactor,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
         ),
       ),
@@ -83,7 +83,7 @@ class _OTPScreenState extends State<OTPScreen>
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w400,
                     fontSize: 14.0 / textScaleFactor,
-                    color: Hexcolor("#627285"),
+                    color: HexColor("#627285"),
                   ),
                 ),
               ),
@@ -111,7 +111,7 @@ class _OTPScreenState extends State<OTPScreen>
                             fontSize: 16 / textScaleFactor,
                             fontWeight: FontWeight.w400,
                             fontFamily: 'Montserrat',
-                            color: Hexcolor("#627285")),
+                            color: HexColor("#627285")),
                       ),
                       Text(
                         "Отправить ещё раз",
@@ -119,7 +119,7 @@ class _OTPScreenState extends State<OTPScreen>
                           fontFamily: 'Montserrat',
                           fontWeight: FontWeight.w500,
                           fontSize: 14.0 / textScaleFactor,
-                          color: Hexcolor("#965EFF"),
+                          color: HexColor("#965EFF"),
                         ),
                       ),
                     ],
@@ -133,7 +133,7 @@ class _OTPScreenState extends State<OTPScreen>
                       fontWeight: FontWeight.w600,
                       fontSize: 28 / textScaleFactor,
                       fontFamily: "Montserrat",
-                      color: Hexcolor("#2D2D2D"),
+                      color: HexColor("#2D2D2D"),
                     ),
                     onCompleted: (String value) {
                       print(value);

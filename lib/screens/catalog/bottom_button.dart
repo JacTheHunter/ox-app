@@ -42,7 +42,7 @@ class _BottomButton extends State<BottomButton> {
                             width: width * .2,
                             height: height *  .05,
                             decoration: BoxDecoration(
-                                color: Hexcolor("#EBF1FD"),
+                                color: HexColor("#EBF1FD"),
                                 borderRadius: BorderRadius.circular(9.0)),
                             child: Center(
                               child: Text(

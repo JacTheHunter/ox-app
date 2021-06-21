@@ -34,7 +34,7 @@ class _Shops extends State<Shops> {
                   width: 38,
                   height: 6,
                   decoration: BoxDecoration(
-                      color: Hexcolor("#979797"),
+                      color: HexColor("#979797"),
                       borderRadius: BorderRadius.circular(4.5)),
                 ),
               ),
@@ -53,7 +53,7 @@ class _Shops extends State<Shops> {
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                           color: _selectedCat == i
-                              ? Hexcolor("#EBF1FD")
+                              ? HexColor("#EBF1FD")
                               : Colors.white,
                           borderRadius: BorderRadius.circular(14.0),
                         ),
@@ -74,7 +74,7 @@ class _Shops extends State<Shops> {
                                     fontSize: 16,
                                     fontFamily: 'Montserrat',
                                     fontWeight: FontWeight.w400,
-                                    color: Hexcolor("#0D3662")),
+                                    color: HexColor("#0D3662")),
                               ),
                             ),
                           ),
@@ -109,7 +109,7 @@ class _Shops extends State<Shops> {
                       fontFamily: 'Montserrat',
                       fontSize: 19,
                       fontWeight: FontWeight.w600,
-                      color: Hexcolor("#0D3662"),
+                      color: HexColor("#0D3662"),
                     ),
                   ),
                 ],
@@ -129,14 +129,14 @@ class _Shops extends State<Shops> {
                       decoration: InputDecoration(
                         prefixIcon: Icon(
                           Icons.search,
-                          color: Hexcolor("#B7C1D2"),
+                          color: HexColor("#B7C1D2"),
                         ),
                         hintText: 'Поиск брендов',
                         hintStyle: TextStyle(
                           fontFamily: 'Montserrat',
                           fontSize: 14,
                           fontWeight: FontWeight.w400,
-                          color: Hexcolor("#B7C1D2"),
+                          color: HexColor("#B7C1D2"),
                         ),
                       ),
                     ),
@@ -167,7 +167,7 @@ class _Shops extends State<Shops> {
                       label: Text(
                         'Популярные',
                         style: TextStyle(
-                          color: Hexcolor("#0D3662"),
+                          color: HexColor("#0D3662"),
                           fontWeight: FontWeight.w500,
                           fontFamily: 'Montserrat',
                           fontSize: 12,

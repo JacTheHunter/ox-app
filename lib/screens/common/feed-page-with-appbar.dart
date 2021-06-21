@@ -46,7 +46,7 @@ class _CatalogPageWithAppBarState extends State<CatalogPageWithAppBar> {
     var textScaleFactor = MediaQuery.of(context).textScaleFactor;
 
     final tabBar = new TabBar(
-      indicatorColor: Hexcolor("#000080"),
+      indicatorColor: HexColor("#000080"),
       indicatorSize: TabBarIndicatorSize.label,
       isScrollable: true,
       onTap: _onItemTappedForTabBar,
@@ -58,7 +58,7 @@ class _CatalogPageWithAppBarState extends State<CatalogPageWithAppBar> {
               fontFamily: 'Montserrat',
               fontWeight: FontWeight.w500,
               fontSize: 14 / textScaleFactor,
-              color: Hexcolor("#0D3662"),
+              color: HexColor("#0D3662"),
             ),
           ),
         ),
@@ -69,7 +69,7 @@ class _CatalogPageWithAppBarState extends State<CatalogPageWithAppBar> {
               fontFamily: 'Montserrat',
               fontWeight: FontWeight.w500,
               fontSize: 14 / textScaleFactor,
-              color: Hexcolor("#0D3662"),
+              color: HexColor("#0D3662"),
             ),
           ),
         ),
@@ -80,7 +80,7 @@ class _CatalogPageWithAppBarState extends State<CatalogPageWithAppBar> {
               fontFamily: 'Montserrat',
               fontWeight: FontWeight.w500,
               fontSize: 14 / textScaleFactor,
-              color: Hexcolor("#0D3662"),
+              color: HexColor("#0D3662"),
             ),
           ),
         ),
@@ -91,7 +91,7 @@ class _CatalogPageWithAppBarState extends State<CatalogPageWithAppBar> {
               fontFamily: 'Montserrat',
               fontWeight: FontWeight.w500,
               fontSize: 14 / textScaleFactor,
-              color: Hexcolor("#0D3662"),
+              color: HexColor("#0D3662"),
             ),
           ),
         ),
@@ -142,7 +142,7 @@ class _CatalogPageWithAppBarState extends State<CatalogPageWithAppBar> {
                     pinned: true,
                     floating: true,
                     forceElevated: innerBoxIsScrolled,
-                    iconTheme: new IconThemeData(color: Hexcolor('#000080')),
+                    iconTheme: new IconThemeData(color: HexColor('#000080')),
                     backgroundColor: Colors.white,
                     elevation: 0,
                     shape: RoundedRectangleBorder(

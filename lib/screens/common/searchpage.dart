@@ -32,7 +32,7 @@ class DataSearch extends SearchDelegate<String> {
     return [
       IconButton(
         icon: Icon(Icons.search),
-        color: Hexcolor("#0D3662"),
+        color: HexColor("#0D3662"),
         onPressed: () {
           query = "";
         },
@@ -45,7 +45,7 @@ class DataSearch extends SearchDelegate<String> {
     return IconButton(
       icon: AnimatedIcon(
         icon: AnimatedIcons.menu_arrow,
-        color: Hexcolor("#0D3662"),
+        color: HexColor("#0D3662"),
         progress: transitionAnimation,
       ),
       onPressed: () {

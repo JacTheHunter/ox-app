@@ -126,7 +126,7 @@ class _Shop_Item1State extends State<Shop_Item1> {
             width: width * .3,
             padding: EdgeInsets.only(top: height * .005),
             child: Center(
-              child: RatingBar(
+              child: RatingBar.builder(
                 itemSize: width * .05,
                 initialRating: 0,
                 minRating: 0,
@@ -136,7 +136,7 @@ class _Shop_Item1State extends State<Shop_Item1> {
                 itemPadding: EdgeInsets.symmetric(horizontal: 1),
                 itemBuilder: (context, _) => Icon(
                   Icons.star,
-                  color: Hexcolor("##FECE2F"),
+                  color: HexColor("##FECE2F"),
                 ),
                 onRatingUpdate: (rating) {
                   print(rating);

@@ -7,7 +7,7 @@ class CheckOutProductPageStyles {
       fontFamily: 'Montserrat',
       fontWeight: FontWeight.w500,
       fontSize: 14 / scale,
-      color: Hexcolor('#0D3662'),
+      color: HexColor('#0D3662'),
     );
   }
 
@@ -36,7 +36,7 @@ class CheckOutProductPageStyles {
           fontFamily: 'Montserrat',
           fontWeight: FontWeight.w500,
           fontSize: 14 / scale,
-          color: Hexcolor('#B7C1D2')),
+          color: HexColor('#B7C1D2')),
       border: OutlineInputBorder(
         borderSide: BorderSide(
           color: Colors.transparent,

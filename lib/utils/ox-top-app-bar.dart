@@ -32,7 +32,7 @@ class OxTopAppBarWithBody extends StatelessWidget {
             pinned: false,
             floating: true,
             forceElevated: innerBoxIsScrolled,
-            iconTheme: new IconThemeData(color: Hexcolor('#000080')),
+            iconTheme: new IconThemeData(color: HexColor('#000080')),
             backgroundColor: Colors.white,
             elevation: 0,
             shape: RoundedRectangleBorder(

@@ -71,14 +71,14 @@ class _ShipmentMethodsWidgetState extends State<ShipmentMethodsWidget> {
             width: width * .11,
             height: height * .08,
             decoration: BoxDecoration(
-                color: Hexcolor('#ECE1FE'),
+                color: HexColor('#ECE1FE'),
                 borderRadius: BorderRadius.circular(11)),
             child: Center(
               child: IconButton(
                 icon: Icon(
                   Icons.keyboard_arrow_down,
                   size: 30,
-                  color: Hexcolor('#965EFF'),
+                  color: HexColor('#965EFF'),
                 ),
                 onPressed: () {
                   showDialog(
@@ -301,14 +301,14 @@ class _SelectDeliveryDateState extends State<SelectDeliveryDate> {
             width: width * .11,
             height: height * .08,
             decoration: BoxDecoration(
-                color: Hexcolor('#ECE1FE'),
+                color: HexColor('#ECE1FE'),
                 borderRadius: BorderRadius.circular(11)),
             child: Center(
               child: IconButton(
                 icon: Icon(
                   Icons.keyboard_arrow_down,
                   size: 30,
-                  color: Hexcolor('#965EFF'),
+                  color: HexColor('#965EFF'),
                 ),
                 onPressed: () {},
               ),

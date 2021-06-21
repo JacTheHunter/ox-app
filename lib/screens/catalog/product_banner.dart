@@ -57,7 +57,7 @@ class _Product_Banner extends State<Product_Banner> {
                             height: height  *.05, // height of the button
                             //width: width  *.38, // wi
                             decoration: BoxDecoration(
-                              color: Hexcolor("#FECE2F"),
+                              color: HexColor("#FECE2F"),
                               boxShadow: [
                                 BoxShadow(
                                   color: Colors.grey.withOpacity(0.2),

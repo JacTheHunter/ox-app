@@ -45,7 +45,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Hexcolor("#979797").withOpacity(0.1),
+                        color: HexColor("#979797").withOpacity(0.1),
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: Offset(0, 3),
@@ -63,7 +63,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 12,
-                          color: Hexcolor("#0D3662")),
+                          color: HexColor("#0D3662")),
                     ),
                     Text(
                       "10 часов назад",
@@ -71,7 +71,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 8,
-                          color: Hexcolor("#B7C1D2")),
+                          color: HexColor("#B7C1D2")),
                     ),
                   ],
                 ),
@@ -111,7 +111,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                     fontSize: 11,
                     fontFamily: "Montserrat",
                     fontWeight: FontWeight.w400,
-                    color: Hexcolor("#4F4F4F"),
+                    color: HexColor("#4F4F4F"),
                   ),
                 ),
               ),
@@ -170,7 +170,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Hexcolor("#979797").withOpacity(0.1),
+                        color: HexColor("#979797").withOpacity(0.1),
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: Offset(0, 3),
@@ -188,7 +188,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 12,
-                          color: Hexcolor("#0D3662")),
+                          color: HexColor("#0D3662")),
                     ),
                     Text(
                       "вчера",
@@ -196,7 +196,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 8,
-                          color: Hexcolor("#B7C1D2")),
+                          color: HexColor("#B7C1D2")),
                     ),
                   ],
                 ),
@@ -220,7 +220,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: Hexcolor("#979797").withOpacity(0.1),
+                        color: HexColor("#979797").withOpacity(0.1),
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: Offset(0, 3),
@@ -238,7 +238,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 12,
-                          color: Hexcolor("#0D3662")),
+                          color: HexColor("#0D3662")),
                     ),
                     Text(
                       "10 часов назад",
@@ -246,7 +246,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                           fontWeight: FontWeight.w500,
                           fontFamily: "Montserrat",
                           fontSize: 8,
-                          color: Hexcolor("#B7C1D2")),
+                          color: HexColor("#B7C1D2")),
                     ),
                   ],
                 ),
@@ -286,7 +286,7 @@ class _Bottom_Sheet extends State<Bottom_Sheet> {
                     fontSize: 11,
                     fontFamily: "Montserrat",
                     fontWeight: FontWeight.w400,
-                    color: Hexcolor("#4F4F4F"),
+                    color: HexColor("#4F4F4F"),
                   ),
                 ),
               ),

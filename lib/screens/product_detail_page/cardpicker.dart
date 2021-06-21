@@ -47,7 +47,7 @@ class _Variation extends State<Variation> {
                 Text(
                   "Размер",
                   style: TextStyle(
-                      color: Hexcolor("#0D3662"),
+                      color: HexColor("#0D3662"),
                       fontFamily: 'Montserrat',
                       fontWeight: FontWeight.w400,
                       fontSize: 15.0),
@@ -76,11 +76,11 @@ class _Variation extends State<Variation> {
                           height: height * .03,
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
-                            color: Hexcolor("#EBF1FD"),
+                            color: HexColor("#EBF1FD"),
                             border: Border.all(
                               width: 2.5,
                               color: _selectedSizeIndex == i
-                                  ? Hexcolor("#965EFF")
+                                  ? HexColor("#965EFF")
                                   : Colors.white,
                             ),
                             borderRadius: BorderRadius.circular(15.0),
@@ -101,8 +101,8 @@ class _Variation extends State<Variation> {
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.w500,
                                       color: _selectedSizeIndex == i
-                                          ? Hexcolor("#0D3662")
-                                          : Hexcolor("#6683A5")),
+                                          ? HexColor("#0D3662")
+                                          : HexColor("#6683A5")),
                                 ),
                               ],
                             ),
@@ -119,7 +119,7 @@ class _Variation extends State<Variation> {
                       fontSize: 15,
                       fontWeight: FontWeight.w400,
                       fontFamily: 'Montserrat',
-                      color: Hexcolor("#0D3662")),
+                      color: HexColor("#0D3662")),
                 ),
                 SizedBox(height: 5),
                 Container(
@@ -147,7 +147,7 @@ class _Variation extends State<Variation> {
                             border: Border.all(
                                 width: 3,
                                 color: _selectedColorIndex == index
-                                    ? Hexcolor("#965EFF")
+                                    ? HexColor("#965EFF")
                                     : Colors.white),
                           ),
                           child: Container(
@@ -155,7 +155,7 @@ class _Variation extends State<Variation> {
                             height: height * .07,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              color: Hexcolor(colors[index]),
+                              color: HexColor(colors[index]),
                             ),
                           ),
                         ),

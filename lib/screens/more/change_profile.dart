@@ -79,7 +79,7 @@ class _ChangeProfile extends State<ChangeProfile> {
                           fontWeight: FontWeight.w500,
                           fontFamily: 'Montserrat',
                           fontSize: 19 / textScaleFactor,
-                          color: Hexcolor('#0D3662'),
+                          color: HexColor('#0D3662'),
                         ),
                       ),
                       SizedBox(height: height * .02),
@@ -94,7 +94,7 @@ class _ChangeProfile extends State<ChangeProfile> {
                               width: width * .35,
                               height: height * .13,
                               decoration: BoxDecoration(
-                                color: Hexcolor("#EBF1FD"),
+                                color: HexColor("#EBF1FD"),
                                 borderRadius: BorderRadius.circular(15),
                               ),
                               child: Column(
@@ -108,7 +108,7 @@ class _ChangeProfile extends State<ChangeProfile> {
                                       fontWeight: FontWeight.w400,
                                       fontSize: 14 / textScaleFactor,
                                       fontFamily: 'Montserrat',
-                                      color: Hexcolor("#0D3662"),
+                                      color: HexColor("#0D3662"),
                                     ),
                                   ),
                                 ],
@@ -123,7 +123,7 @@ class _ChangeProfile extends State<ChangeProfile> {
                               width: width * .35,
                               height: height * .13,
                               decoration: BoxDecoration(
-                                color: Hexcolor("#EBF1FD"),
+                                color: HexColor("#EBF1FD"),
                                 borderRadius: BorderRadius.circular(15),
                               ),
                               child: Column(
@@ -137,7 +137,7 @@ class _ChangeProfile extends State<ChangeProfile> {
                                       fontWeight: FontWeight.w400,
                                       fontSize: 14 / textScaleFactor,
                                       fontFamily: 'Montserrat',
-                                      color: Hexcolor("#0D3662"),
+                                      color: HexColor("#0D3662"),
                                     ),
                                   ),
                                 ],
@@ -167,7 +167,7 @@ class _ChangeProfile extends State<ChangeProfile> {
             width: width * .50,
             height: height * .50,
             decoration: BoxDecoration(
-              color: Hexcolor("#EBF1FD"),
+              color: HexColor("#EBF1FD"),
               borderRadius: BorderRadius.circular(68),
               image: this._image == null
                   ? null
@@ -305,15 +305,15 @@ class _ChangeProfile extends State<ChangeProfile> {
       ),
     );
     return Scaffold(
-      backgroundColor: Hexcolor("#F7F8FB"),
+      backgroundColor: HexColor("#F7F8FB"),
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Hexcolor("#F7F8FB"),
+        backgroundColor: HexColor("#F7F8FB"),
         centerTitle: true,
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
           onPressed: () {
             Navigator.of(context).pop();
@@ -326,7 +326,7 @@ class _ChangeProfile extends State<ChangeProfile> {
             fontSize: 19,
             fontFamily: 'Montserrat',
             fontWeight: FontWeight.w600,
-            color: Hexcolor("#0D3662"),
+            color: HexColor("#0D3662"),
           ),
         ),
       ),

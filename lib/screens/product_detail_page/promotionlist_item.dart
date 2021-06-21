@@ -22,7 +22,7 @@ class PromList_Item extends StatelessWidget {
         children: <Widget>[
           Container(
             decoration: BoxDecoration(
-              border: Border.all(color: Hexcolor("#FFD3E6"), width: 1.2),
+              border: Border.all(color: HexColor("#FFD3E6"), width: 1.2),
               color: Colors.white,
               borderRadius: BorderRadius.circular(20.0),
             ),
@@ -42,7 +42,7 @@ class PromList_Item extends StatelessWidget {
                             fontSize: 12.0,
                             fontWeight: FontWeight.w500,
                             fontFamily: 'Montserrat',
-                            color: Hexcolor('#0D3662'),
+                            color: HexColor('#0D3662'),
                           ),
                         ),
                         SizedBox(height: constraints.maxHeight * 0.1),
@@ -52,7 +52,7 @@ class PromList_Item extends StatelessWidget {
                             fontFamily: 'Montserrat',
                             fontWeight: FontWeight.w400,
                             fontSize: 12.0,
-                            color: Hexcolor("#0D3662"),
+                            color: HexColor("#0D3662"),
                           ),
                         ),
                       ],

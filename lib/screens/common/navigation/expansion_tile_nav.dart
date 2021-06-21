@@ -39,7 +39,7 @@ class _ExpansionListsState extends State<ExpansionList> {
           fontWeight: FontWeight.w500,
           fontFamily: 'Montserrat',
           fontSize: 14 / textScaleFactor,
-          color: Hexcolor("#0D3662"),
+          color: HexColor("#0D3662"),
         ),
       ),
       onExpansionChanged: (val) {

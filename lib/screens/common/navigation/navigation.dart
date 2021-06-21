@@ -36,7 +36,7 @@ class _NavigationDrawer extends State<NavigationDrawer> {
     var height = MediaQuery.of(context).size.height;
     var textScaleFactor = MediaQuery.of(context).textScaleFactor;
     return Scaffold(
-      backgroundColor: Hexcolor('#F6F8FB'),
+      backgroundColor: HexColor('#F6F8FB'),
       body: GestureDetector(
         onPanUpdate: (dis) {
           if (dis.delta.dx < 0) {
@@ -58,7 +58,7 @@ class _NavigationDrawer extends State<NavigationDrawer> {
                         fontFamily: 'Montserrat',
                         fontSize: 16 / textScaleFactor,
                         fontWeight: FontWeight.w500,
-                        color: Hexcolor("#B7C1D2")),
+                        color: HexColor("#B7C1D2")),
                     border: InputBorder.none,
                     suffixIcon: InkWell(
                       onTap: () {
@@ -66,13 +66,13 @@ class _NavigationDrawer extends State<NavigationDrawer> {
                       },
                       child: Icon(
                         Icons.close,
-                        color: Hexcolor("#0D3662"),
+                        color: HexColor("#0D3662"),
                         size: 30,
                       ),
                     ),
                     prefixIcon: Icon(
                       Icons.search,
-                      color: Hexcolor("#B7C1D2"),
+                      color: HexColor("#B7C1D2"),
                     ),
                   ),
                 ),
@@ -84,7 +84,7 @@ class _NavigationDrawer extends State<NavigationDrawer> {
                 margin: EdgeInsets.only(left: width / 11),
                 height: height * .001,
                 width: width * .65,
-                color: Hexcolor("#B7C1D2"),
+                color: HexColor("#B7C1D2"),
               ),
             ),
             SizedBox(height: 15),
@@ -97,7 +97,7 @@ class _NavigationDrawer extends State<NavigationDrawer> {
                     child: Container(
                       width: width * .25,
                       decoration: BoxDecoration(
-                        color: Hexcolor("#EBF1FD"),
+                        color: HexColor("#EBF1FD"),
                         borderRadius: BorderRadius.only(
                           bottomRight: Radius.circular(15),
                           topRight: Radius.circular(15),
@@ -121,7 +121,7 @@ class _NavigationDrawer extends State<NavigationDrawer> {
                               decoration: BoxDecoration(
                                 color: selectedCat == i
                                     ? Colors.white
-                                    : Hexcolor("#EBF1FD"),
+                                    : HexColor("#EBF1FD"),
                                 borderRadius: BorderRadius.circular(15.0),
                               ),
                               child: Container(
@@ -141,7 +141,7 @@ class _NavigationDrawer extends State<NavigationDrawer> {
                                           fontSize: 9,
                                           fontFamily: 'Montserrat',
                                           fontWeight: FontWeight.w500,
-                                          color: Hexcolor("#0D3662")),
+                                          color: HexColor("#0D3662")),
                                     ),
                                   ],
                                 ),
@@ -160,7 +160,7 @@ class _NavigationDrawer extends State<NavigationDrawer> {
                         itemCount: categories[selectedCat].subCat.length,
                         itemBuilder: (ctx, i) {
                           final theme = Theme.of(ctx)
-                              .copyWith(dividerColor: Hexcolor("#F6F8FB"));
+                              .copyWith(dividerColor: HexColor("#F6F8FB"));
                           return Theme(
                             data: theme,
                             child: ExpansionList(

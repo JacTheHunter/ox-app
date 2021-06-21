@@ -62,7 +62,7 @@ class _ShippingPaymentPlaceOrderAppBarState
       height: height * .07,
       width: selectedWi,
       decoration: BoxDecoration(
-        color: Hexcolor('#FFEBF3'),
+        color: HexColor('#FFEBF3'),
         borderRadius: BorderRadius.circular(35),
       ),
       duration: Duration(milliseconds: 200),
@@ -103,7 +103,7 @@ class _ShippingPaymentPlaceOrderAppBarState
       height: height * .07,
       width: selectedWi,
       decoration: BoxDecoration(
-        color: Hexcolor('#FFEBF3'),
+        color: HexColor('#FFEBF3'),
         borderRadius: BorderRadius.circular(30),
       ),
     );
